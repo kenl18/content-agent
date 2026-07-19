@@ -8,7 +8,7 @@ technical-design.md, "Resolved decisions"). `src/transport/http/` exists as a pl
 
 ## Context
 
-The Content Service will eventually be called by multiple systems, possibly over different
+The Content Agent will eventually be called by multiple systems, possibly over different
 transports (HTTP from Website Builder, a direct in-process call if ever co-located, a CLI for
 manual testing). Coupling the generation pipeline directly to one transport (e.g. building
 request/response handling directly inside Express route handlers) would make the core logic

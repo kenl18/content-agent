@@ -7,7 +7,7 @@ in `src/providers/anthropic-provider.ts`.
 
 ## Context
 
-The Content Service must call an AI model to generate content. Supporting multiple providers
+The Content Agent must call an AI model to generate content. Supporting multiple providers
 from day one (routing, fallback, cost comparison) adds meaningful complexity — provider-specific
 prompt formatting, response shapes, error semantics, and configuration — with no current
 consumer requirement driving it.

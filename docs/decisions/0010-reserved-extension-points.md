@@ -6,7 +6,7 @@ Accepted.
 
 ## Context
 
-The Content Service's purpose is to optimize measurable business outcomes (see
+The Content Agent's purpose is to optimize measurable business outcomes (see
 [docs/principles.md](../principles.md)), and several capabilities that would directly serve that
 purpose — SEO optimization, keyword research, readability scoring, conversion learning,
 AdSense-aware generation, performance feedback loops — are explicitly out of scope for Version 1

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The Content Service is a **Business Content Optimization Service**. It does not exist to
+The Content Agent is a **Business Content Optimization Service**. It does not exist to
 produce text — it exists to generate content that moves a measurable business outcome the
 caller has specified: more organic traffic, better search-intent matching, longer time on page,
 higher ad viewability and RPM, more email captures, better affiliate click-through and
@@ -161,7 +161,7 @@ inferred from `contentType`, `consumer`, or any other field.
 
 ## Position within a larger optimization loop
 
-The Content Service is deliberately narrow. It is one execution component within a larger,
+The Content Agent is deliberately narrow. It is one execution component within a larger,
 future optimization loop that this repository does not own and must never absorb:
 
 ```
@@ -172,7 +172,7 @@ Analytics / Intelligence Service (future, separate system)
 Website Builder (or another orchestrator)
    │  translates business strategy + optimization signals into a structured ContentRequest
    ▼
-Content Service (this repository)
+Content Agent (this repository)
    │  executes: writes content optimized toward the supplied objective(s) and business model,
    │  informed by whatever optimization signals it's given
    ▼
@@ -189,7 +189,7 @@ Live website generates new performance data
                                                                           Service (future)
 ```
 
-The Content Service's role in this loop is strictly **execution**: it consumes supplied business
+The Content Agent's role in this loop is strictly **execution**: it consumes supplied business
 strategy (`businessModel`, `primaryObjective`, `secondaryObjectives`, `targetAudience`,
 `desiredAction`, `sections`, `context`) and, in the future, supplied **optimization signals**
 (see [docs/future-vision.md](future-vision.md), "Optimization Signals") from an

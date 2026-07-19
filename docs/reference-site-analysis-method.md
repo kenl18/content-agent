@@ -1,10 +1,10 @@
 # Reference Site Analysis Method
 
-A repeatable workflow for turning a reference website into Content Service templates without
+A repeatable workflow for turning a reference website into Content Agent templates without
 copying its wording or proprietary content. Use this whenever a reference site is supplied for a
 new template or a redesign of an existing one.
 
-This method exists because of a specific framing decision: for Version 1, the Content Service
+This method exists because of a specific framing decision: for Version 1, the Content Agent
 should be *briefed* like an elite conversion copywriter and content strategist would brief a
 piece of content — not treated as an autonomous engine that measures and optimizes on its own.
 Measuring outcomes is a future Analytics Service's job (see
@@ -29,7 +29,7 @@ serves a funnel — is what this method is for capturing, before any schema gets
    habit loops, etc.), not just a description of what's on the page.
 5. **Recommend how those principles should be adapted** to the business at hand — its actual
    product/tool catalog, funnel, and business model, not the reference site's.
-6. **Design reusable Content Service templates from those learnings, as two layers** (see
+6. **Design reusable Content Agent templates from those learnings, as two layers** (see
    [ADR-0014](decisions/0014-templates-as-two-layer-playbooks.md)): a **Strategy Layer** —
    business purpose, visitor psychology, conversion reasoning, the specific reference principle(s)
    from steps 2–4 this section traces back to, information hierarchy, anticipated objections,
@@ -40,7 +40,7 @@ serves a funnel — is what this method is for capturing, before any schema gets
 7. **Never copy wording or proprietary content** — no headlines, quiz names, testimonial text, or
    distinctive phrasing from the reference site may appear in any template, guidance text, or
    generated output.
-8. **Return original content based on the extracted principles** — the Content Service always
+8. **Return original content based on the extracted principles** — the Content Agent always
    generates AstrologyManifest-specific, original copy; the reference site only ever informs
    *structure and strategy*, never *substance*.
 

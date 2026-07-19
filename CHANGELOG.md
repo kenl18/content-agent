@@ -1,6 +1,17 @@
 # Changelog
 
+## Unreleased
+
+- **Renamed the AI system identity: Content Service → Content Agent** (AI Marketing Operating
+  System terminology standardization). Documentation-only: package name (`content-service`),
+  directory, APIs, contracts (including `ContentServiceError`), and runtime behaviour are
+  unchanged. Release tag renamed `content-service-v1.0.0` → `content-agent-v1.0.0` (same
+  commit).
+
 ## v1.0.0 — 2026-07-19 · "Production email generation"
+
+*(Released under the former name "Content Service"; identity renamed to Content Agent
+immediately after release — see Unreleased above.)*
 
 First release. Feature complete for Phase 1; architecture frozen (see
 [VERSION.md](VERSION.md), ADR-0001–ADR-0016).

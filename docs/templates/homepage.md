@@ -316,7 +316,7 @@ quotes — only real, supplied statistics.
 
 Unchanged from the prior pass: real customer testimonials are factual claims about real people
 and must never be generated. If AstrologyManifest wants this section, it needs a real source of
-reviews; the Content Service has no role — Strategy Layer or Output Layer — in producing them.
+reviews; the Content Agent has no role — Strategy Layer or Output Layer — in producing them.
 
 ### H. Final CTA
 
@@ -364,7 +364,7 @@ reviews; the Content Service has no role — Strategy Layer or Output Layer — 
 
 ---
 
-## What never belongs to the Content Service (unchanged, restated briefly)
+## What never belongs to the Content Agent (unchanged, restated briefly)
 
 Layout, interactive tool logic, images/icons/illustrations, real business facts and figures
 (supplied as `context`, never invented), testimonials (never generated, under any framing),

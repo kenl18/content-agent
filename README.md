@@ -1,8 +1,8 @@
-# Content Service
+# Content Agent
 
 A standalone, reusable **Business Content Optimization Service**.
 
-The Content Service is **not** a generic AI copywriter and **not** an orchestrator. Its purpose
+The Content Agent is **not** a generic AI copywriter and **not** an orchestrator. Its purpose
 is not to produce text — it's to generate content that moves a measurable business outcome the
 caller specifies: more organic traffic, better search-intent matching, more time on page, higher
 ad viewability and RPM, more email captures, better affiliate click-through and conversion, more
@@ -34,7 +34,7 @@ Consumers are orchestrators and business systems, not end users. Known/expected 
 - **EmailOps**
 - Future websites and businesses
 
-The Content Service has no knowledge of any specific consumer's domain, funnel, or monetization
+The Content Agent has no knowledge of any specific consumer's domain, funnel, or monetization
 stack. AstrologyManifest's SEO → engagement → RPM → email capture → affiliate conversion funnel
 motivated this service's business-objective vocabulary, but that vocabulary is general-purpose —
 any consumer supplies its own objectives the same way. See [docs/boundaries.md](docs/boundaries.md)
@@ -42,19 +42,19 @@ for the consumer-neutrality rule.
 
 ## Core architectural rule
 
-> The Content Service may transform supplied strategy into content, but it must not silently
+> The Content Agent may transform supplied strategy into content, but it must not silently
 > invent the strategy.
 
 The caller is always responsible for deciding how the business makes money (its business model),
 the business objective(s) content must serve, target audience, desired user action, required
-sections/fields, and relevant business context. The Content Service is responsible only for
+sections/fields, and relevant business context. The Content Agent is responsible only for
 turning that supplied strategy into well-formed, objective-aligned written content. See
 [docs/principles.md](docs/principles.md) for the full set of immutable engineering principles
 this implies.
 
 ## Part of a larger optimization loop, but not the loop itself
 
-The Content Service is one execution component within a larger, future loop where a
+The Content Agent is one execution component within a larger, future loop where a
 (not-yet-built) Analytics/Intelligence Service measures real-world performance and decides what's
 worth optimizing next. This service never measures performance, never decides what to optimize,
 and never learns across requests — it only executes whatever strategy and (eventually)
@@ -103,8 +103,10 @@ See [docs/boundaries.md](docs/boundaries.md) for the full inside/outside boundar
 
 ## Status
 
-**Released: v1.0.0 (`content-service-v1.0.0`, 2026-07-19) — architecture frozen, feature
-complete for Phase 1.** The service integrates with EmailOps via `createContentClient()`,
+**Released: v1.0.0 (`content-agent-v1.0.0`, 2026-07-19) — architecture frozen, feature
+complete for Phase 1.** Formerly named "Content Service"; renamed to **Content Agent** as part
+of AI Marketing Operating System terminology standardization (identity only — package name,
+directory, APIs, and contracts are unchanged). The service integrates with EmailOps via `createContentClient()`,
 generates production-quality promotional emails under the product-quality Strategy Layer,
 supports `refresh` / `create` / `variant` production modes (ADR-0016), and passed a live
 end-to-end proof against a real historical winner. See [VERSION.md](VERSION.md) and

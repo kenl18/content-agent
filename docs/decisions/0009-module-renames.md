@@ -16,7 +16,7 @@ The original folder structure (see the earliest draft of
    validated request, a resolved template, and one or more business objectives into instructions
    aimed at a measurable outcome. "Prompt" undersold what the module does and invited the
    assumption that it's a thin templating layer.
-2. `service/` was ambiguous with "the Content Service" (the repository/product as a whole) and
+2. `service/` was ambiguous with "the Content Agent" (the repository/product as a whole) and
    didn't clearly communicate that this specific module is the orchestration/use-case layer that
    coordinates the other modules — a more conventional and precise name was available.
 

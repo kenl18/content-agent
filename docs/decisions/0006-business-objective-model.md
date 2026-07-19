@@ -12,7 +12,7 @@ interpreted within a supplied business model.
 
 ## Context
 
-The Content Service exists to move measurable business outcomes, not just to produce text (see
+The Content Agent exists to move measurable business outcomes, not just to produce text (see
 [docs/principles.md](../principles.md)). Earlier drafts of the request contract captured "why
 this content exists" as a single free-text `businessObjective` string. A free-text field can't be
 read by the pipeline itself — Template Selection and Instruction Generation can't reason about

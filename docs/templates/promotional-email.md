@@ -129,10 +129,10 @@ Schema `promotional-email-v1`:
 Sending, list segmentation, send timing, from-name/reply-to, the affiliate link URL and
 tracking parameters, unsubscribe mechanics and the compliance footer (CAN-SPAM et al. —
 fixed compliance copy, same reasoning as the affiliate disclosure in the Soulmate Message
-validation), suppression handling, and deliverability. The Content Service returns text
+validation), suppression handling, and deliverability. The Content Agent returns text
 fields only.
 
-## Example request (EmailOps → Content Service)
+## Example request (EmailOps → Content Agent)
 
 ```jsonc
 {

@@ -13,9 +13,9 @@ are summarized at the end without design commitment. Supersedes and absorbs
 
 ## Context
 
-EmailOps operates the business through one window and calls the Content Service automatically.
+EmailOps operates the business through one window and calls the Content Agent automatically.
 EmailOps owns all ESP integrations, retrieves historical campaigns and performance itself, and
-supplies a curated request. The Content Service's job in this phase: produce better promotional
+supplies a curated request. The Content Agent's job in this phase: produce better promotional
 emails, faster, grounded in proven historical winners — nothing else.
 
 ## Decision

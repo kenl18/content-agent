@@ -3,18 +3,19 @@
 ```
 STATUS:   RELEASED — architecture frozen
 VERSION:  1.0.0
-TAG:      content-service-v1.0.0
+TAG:      content-agent-v1.0.0 (renamed from content-service-v1.0.0)
 RELEASED: 2026-07-19
 FROZEN:   2026-07-18 (V1) · reaffirmed at release
+IDENTITY: Content Agent (AI Marketing Operating System standard naming, 2026-07-19)
 ```
 
-**Content Service v1.0 — production email generation.** Feature complete for Phase 1:
+**Content Agent v1.0 — production email generation.** Feature complete for Phase 1:
 integrates with EmailOps via the local client, generates production-quality emails under the
 product-quality Strategy Layer, supports REFRESH / CREATE / VARIANT, and has passed a live
 end-to-end integration proof against a real historical winner. Release verification: 63/63
 tests passing, `tsc --noEmit` clean, build emit successful. See [CHANGELOG.md](CHANGELOG.md).
 
-The Content Service architecture is **frozen** as Version 1. Do not expand the architecture,
+The Content Agent architecture is **frozen** as Version 1. Do not expand the architecture,
 documentation, or future vision unless the project owner explicitly reopens it.
 
 ## What the freeze covers

@@ -1,13 +1,13 @@
 # Engineering Principles
 
-These are the immutable principles of the Content Service. Unlike ADRs (which record a decision
+These are the immutable principles of the Content Agent. Unlike ADRs (which record a decision
 made under current constraints and can be revisited if those constraints change) and
 `future-vision.md` (which lists capabilities deliberately deferred, not forbidden), the
 principles below are not expected to change as the service evolves. Any proposal that conflicts
 with one of these should be treated as a proposal to build a different service, not an extension
 of this one.
 
-1. **The Content Service optimizes business outcomes, not writing quality alone.**
+1. **The Content Agent optimizes business outcomes, not writing quality alone.**
    Content is generated to move a measurable business objective — more organic traffic, higher
    RPM, more email captures, better affiliate conversion, more trust, better retention — not
    merely to read well. Quality of prose is in service of the objective, not the goal itself.
@@ -17,19 +17,19 @@ of this one.
    are always supplied by the caller. The service never decides what a piece of content is
    supposed to achieve.
 
-3. **The Content Service owns language execution.**
+3. **The Content Agent owns language execution.**
    Given a supplied strategy, the service is responsible for turning it into well-formed,
    schema-valid, objective-aligned written content. This is the service's entire craft.
 
-4. **The Content Service never edits consumer repositories.**
+4. **The Content Agent never edits consumer repositories.**
    It has no access to and no knowledge of any consumer's file system, codebase, or Astro
    components. It returns data; it does not write files anywhere.
 
-5. **The Content Service never publishes content.**
+5. **The Content Agent never publishes content.**
    Publishing, deployment, and going-live decisions belong entirely to the caller (or whatever
    the caller delegates to, e.g. Website Builder). This service has no publish action.
 
-6. **The Content Service is stateless.**
+6. **The Content Agent is stateless.**
    No request, response, or generation history persists between calls. Every request is handled
    independently, with no memory of prior requests from any caller.
 
@@ -52,7 +52,7 @@ of this one.
     transport. Transports are thin adapters layered on top, never load-bearing for the pipeline's
     correctness.
 
-11. **The Content Service is one execution component within a larger optimization loop — it
+11. **The Content Agent is one execution component within a larger optimization loop — it
     never owns analytics, experimentation, or the decision of what to optimize.**
     A future Analytics/Intelligence Service may one day measure real-world performance and
     decide what's worth trying next, supplying the result as optimization signals in a request.

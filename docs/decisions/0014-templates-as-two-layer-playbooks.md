@@ -21,7 +21,7 @@ progression, and explicit linkage to which funnel stage(s) it serves.
 
 This surfaced a more important realization than any schema detail: **the accumulated strategic
 reasoning behind a template — not the generated copy, and not even the output schema — is the
-Content Service's most valuable and longest-lived asset.** Copy is regenerated every call. Output
+Content Agent's most valuable and longest-lived asset.** Copy is regenerated every call. Output
 schemas get revised as fields are added or renamed. The reasoning about *why* a section exists and
 *how* it's supposed to work on a visitor is what a content strategist spends real effort
 developing, and it should accumulate and compound — not get rewritten carelessly every time a

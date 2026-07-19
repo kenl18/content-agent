@@ -12,13 +12,13 @@ ADR-0016 for the current decision; this document remains as design history.
 
 EmailOps will become the primary operating window for the business and will call the Content
 Service automatically. EmailOps owns all ESP integrations, retrieves historical campaigns and
-performance data itself, and supplies the Content Service with a curated request. The Content
+performance data itself, and supplies the Content Agent with a curated request. The Content
 Service's revised role is **Content Production Engine**: analyse a supplied historical reference,
 preserve proven winning angles, improve quality, generate new copy when no suitable reference
 exists, and generate controlled variants — returning structured content plus a rationale.
 
 Hard boundaries (unchanged in kind from `docs/boundaries.md`, restated for email specifics): the
-Content Service never touches ESP authentication, ESP API keys, subscriber lists or
+Content Agent never touches ESP authentication, ESP API keys, subscriber lists or
 subscriber-level data, audience selection, offer/funnel selection, destination URLs, tracking
 IDs, unsubscribe handling, scheduling, sending, or campaign performance *retrieval*. Performance
 data reaches this service only as caller-supplied, aggregate-level request context — which is
@@ -131,7 +131,7 @@ reserved for exactly this moment. The requested output contract maps as follows:
 | `subjectLine`, `previewText`, `ctaLabel` | existing content fields |
 | `bodySections` | content field: role-tagged blocks separated by `\n---\n`, each block starting `role: <hook\|context\|story\|proof\|objection\|cta-lead\|ps>` — line-based, no nested JSON escaping |
 | `textOnlyVersion` | content field: the full ready-to-use plain-text email |
-| `htmlContentStructure` | satisfied by `bodySections`' ordered semantic blocks — EmailOps maps roles to its own HTML components; the Content Service never returns HTML markup, URLs, or tracking |
+| `htmlContentStructure` | satisfied by `bodySections`' ordered semantic blocks — EmailOps maps roles to its own HTML components; the Content Agent never returns HTML markup, URLs, or tracking |
 | `rationale` | content field (it is generated text the caller requested — a section like any other) |
 | `changesFromReference` | content field, newline-delimited list; refresh/variant modes only |
 | `riskFlags` | content field, newline-delimited list; may be requested in any mode |

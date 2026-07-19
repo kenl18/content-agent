@@ -1,11 +1,11 @@
 # Boundaries
 
-This document is the definitive answer to "does that belong in the Content Service?" When in
+This document is the definitive answer to "does that belong in the Content Agent?" When in
 doubt, check here before adding a capability.
 
 ## The governing rule
 
-> The Content Service may transform supplied strategy into content, but it must not silently
+> The Content Agent may transform supplied strategy into content, but it must not silently
 > invent the strategy.
 
 Everything below follows from this. The caller supplies strategy — including **how the business
@@ -19,7 +19,7 @@ whatever business model the caller supplies.
 
 ## Not a generic copywriting engine
 
-The Content Service is a **Business Content Optimization Service**, not a generic text generator.
+The Content Agent is a **Business Content Optimization Service**, not a generic text generator.
 Every request exists to move a measurable business outcome the caller specifies (see the
 Business Objective model in [docs/contracts.md](contracts.md)) — more traffic, more time on page,
 higher RPM, more email captures, better affiliate conversion, more trust, better retention. The
@@ -30,7 +30,7 @@ types is service-owned, as consumer-neutral shared language, not as a per-consum
 
 ## Inside the service
 
-The Content Service owns:
+The Content Agent owns:
 
 - **Request validation** — enforcing the request schema; rejecting malformed or incomplete
   requests with machine-readable errors.
@@ -54,7 +54,7 @@ The Content Service owns:
 
 ## Outside the service
 
-The Content Service does not own, and must never absorb:
+The Content Agent does not own, and must never absorb:
 
 - **Website architecture** — how any site is structured, routed, or organized.
 - **Astro components and files** — the service never reads or writes Astro source.
@@ -64,9 +64,9 @@ The Content Service does not own, and must never absorb:
 - **Keyword research** — no keyword tooling or keyword-driven content decisions.
 - **SEO opportunity discovery** — no SEO analysis; the service writes what it's told to write.
 - **Image generation** — text-only, no other media.
-- **Creative Pipeline** — a separate system; the Content Service is not part of it and does not
+- **Creative Pipeline** — a separate system; the Content Agent is not part of it and does not
   call into it.
-- **Email sending** — EmailOps sends email; the Content Service only ever returns content to it.
+- **Email sending** — EmailOps sends email; the Content Agent only ever returns content to it.
 - **Content performance analytics** — no tracking or measuring of how generated content
   performs; that belongs to a future, separate Analytics/Intelligence Service (see "Execution
   only" below).
@@ -93,24 +93,24 @@ fields, like any other caller's would be.
 
 ## Orchestration stays with Website Builder
 
-Website Builder is the orchestrator across consumers and use cases. The Content Service is a
+Website Builder is the orchestrator across consumers and use cases. The Content Agent is a
 capability Website Builder (or another caller) invokes — it does not orchestrate multi-step
 workflows, does not call other services, and does not sequence work on a caller's behalf.
 
-## Execution only: the Content Service is not the optimization loop
+## Execution only: the Content Agent is not the optimization loop
 
-The Content Service is one execution component within a larger, future optimization loop — see
+The Content Agent is one execution component within a larger, future optimization loop — see
 [docs/technical-design.md](technical-design.md), "Position within a larger optimization loop,"
 and [ADR-0013](decisions/0013-optimization-loop-positioning.md). A future Analytics/Intelligence
 Service may eventually measure real-world performance (SEO rankings, engagement, RPM, affiliate
 conversion, retention) and decide what to try next, supplying that as **optimization signals**
 in future requests (see [docs/future-vision.md](future-vision.md)). Even then:
 
-- The Content Service never measures performance itself.
-- The Content Service never decides what to optimize next — it only executes whatever
+- The Content Agent never measures performance itself.
+- The Content Agent never decides what to optimize next — it only executes whatever
   objective, business model, and (eventually) optimization signals it is given in a single,
   self-contained request.
-- The Content Service never retains what it learns from one request to inform another — no
+- The Content Agent never retains what it learns from one request to inform another — no
   cross-request memory, however that memory might otherwise be justified.
 
 This boundary holds regardless of how sophisticated the calling orchestrator or a future

@@ -1,7 +1,7 @@
 # Architecture Validation #1 — Soulmate Message Funnel (AstrologyManifest)
 
 **Type:** Validation exercise, not implementation. No code was changed.
-**Question under test:** Could the frozen V1 Content Service generate all production copy for
+**Question under test:** Could the frozen V1 Content Agent generate all production copy for
 this tool without changing the architecture?
 **Verdict: YES** — with two template gaps and one already-recorded implementation gap. No
 architecture gap found. Reasoning at the end.
@@ -28,7 +28,7 @@ funnel, deliberately form-free ("read and tap"), modeled on a reference funnel
 
 ## 2. Separation of concerns
 
-### Business strategy (never Content Service — supplied or kept by the caller)
+### Business strategy (never Content Agent — supplied or kept by the caller)
 
 - The 3-step, zero-form-fields funnel structure and its rationale (modeled on a
   reference funnel whose traffic data shows it converts)
@@ -39,7 +39,7 @@ funnel, deliberately form-free ("read and tap"), modeled on a reference funnel
 - Target audience, funnel narrative arc, per-step desired action
 - Internal-link target (`/angel-numbers/`)
 
-### Content (the Content Service's domain — all of it text)
+### Content (the Content Agent's domain — all of it text)
 
 Step 1: meta title/description, H1, hook body paragraphs, CTA label, social-proof line
 wording.
@@ -72,7 +72,7 @@ Service per `docs/boundaries.md`.
   as fixed compliance copy.** Legal wording should not be regenerated per call; treating it
   as content invites drift in a sentence that exists for compliance, not conversion.
 - **Catalog names/emoji** (e.g. "🔢 Repeating Numbers") → **Funnel Builder as curation**;
-  the Content Service writes each entry's *meaning* text. The list is strategy; the prose is
+  the Content Agent writes each entry's *meaning* text. The list is strategy; the prose is
   content.
 
 ## 3. How the funnel maps onto the frozen contracts
@@ -204,7 +204,7 @@ or caller-supplied schemas.
 
 ## 6. The answer
 
-> **Could the current Content Service generate all production copy for this tool without
+> **Could the current Content Agent generate all production copy for this tool without
 > changing the architecture? — Yes.**
 
 Why:

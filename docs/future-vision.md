@@ -50,7 +50,7 @@ will be generated into.
 - No analytics data is ingested, computed, or stored.
 - No performance feedback loop exists — this service does not know if a previous response
   "worked."
-- The Content Service does not call out to any analytics API, search console, or ad platform.
+- The Content Agent does not call out to any analytics API, search console, or ad platform.
 
 When and if this is built, it should land as an additional optional input surface (see
 [docs/technical-design.md](technical-design.md), "Extension points for future optimization

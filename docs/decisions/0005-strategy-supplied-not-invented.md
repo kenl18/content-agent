@@ -15,7 +15,7 @@ into an undisclosed strategy-maker. This directly conflicts with the service's p
 
 ## Decision
 
-The Content Service enforces, structurally, that it never invents strategy:
+The Content Agent enforces, structurally, that it never invents strategy:
 
 - `primaryObjective`, `targetAudience`, `desiredAction`, and `sections` are **required** fields in
   the request contract (see [docs/contracts.md](../contracts.md)). None have defaults.

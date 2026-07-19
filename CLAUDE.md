@@ -23,7 +23,9 @@ CTA earns itself, single-hypothesis variants. Quality improvements = Strategy La
 
 ## What this repository is
 
-`content-service` is a standalone **Business Content Optimization Service** — it generates
+This repository (directory name `content-service`, kept for path stability) is the
+**Content Agent** — the AI Marketing Operating System's standalone Business Content
+Optimization Service. It generates
 structured written content for other systems (AstrologyManifest, Website Builder, EmailOps, and
 future consumers), optimized toward a business objective the caller supplies. It is **not** a
 generic copywriter, **not** an orchestrator, **not** a publisher, and **not** a strategy engine.
@@ -33,10 +35,10 @@ before making architectural changes.
 
 ## The rules that override all others
 
-> The Content Service may transform supplied strategy into content, but it must not silently
+> The Content Agent may transform supplied strategy into content, but it must not silently
 > invent the strategy.
 
-> The Content Service optimizes business outcomes, not writing quality alone.
+> The Content Agent optimizes business outcomes, not writing quality alone.
 
 If a request is missing information the service would need to guess (business model, business
 objective, audience, required sections, business facts), the correct behavior is to return a

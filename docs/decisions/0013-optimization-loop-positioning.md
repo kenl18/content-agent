@@ -1,4 +1,4 @@
-# ADR-0013: The Content Service as an Execution Component Within a Larger Optimization Loop
+# ADR-0013: The Content Agent as an Execution Component Within a Larger Optimization Loop
 
 ## Status
 
@@ -6,7 +6,7 @@ Accepted.
 
 ## Context
 
-The Content Service exists to move measurable business outcomes (see
+The Content Agent exists to move measurable business outcomes (see
 [docs/principles.md](../principles.md)), which raises an obvious question: if outcomes matter,
 shouldn't the service eventually measure them and adjust? The instinctive next step —
 letting this service track performance, run experiments, or learn from what it generated before —
@@ -24,7 +24,7 @@ just belongs to a different system.
 
 ## Decision
 
-The Content Service is explicitly positioned as **one execution component within a larger
+The Content Agent is explicitly positioned as **one execution component within a larger
 optimization loop**, most of which is out of scope for this repository, now and later:
 
 ```
@@ -32,7 +32,7 @@ Analytics/Intelligence Service (future, separate system)
   → measures performance, decides what to optimize next
 Website Builder (or another orchestrator)
   → translates strategy + optimization signals into a ContentRequest
-Content Service (this repository)
+Content Agent (this repository)
   → executes: generates content optimized toward supplied objective(s)/business model,
     informed by whatever signals it's given
 Website Builder
@@ -65,13 +65,13 @@ Concretely, this service:
 - This ADR does not commit anyone to building an Analytics/Intelligence Service. It only ensures
   that if one is built, this service's boundaries don't have to be renegotiated to receive its
   output.
-- Documentation and code review for this repository should treat "should the Content Service
+- Documentation and code review for this repository should treat "should the Content Agent
   track/measure/decide X" as a boundary violation by default, not a feature request to scope —
   see [docs/boundaries.md](../boundaries.md), "Execution only."
 
 ## Alternatives considered
 
-- **Let the Content Service own lightweight analytics itself ("just enough" tracking)** —
+- **Let the Content Agent own lightweight analytics itself ("just enough" tracking)** —
   rejected: there's no such thing as "just enough" analytics ownership once a service starts
   measuring outcomes — it inevitably grows into deciding what to do about them, which is a
   different system's job and reopens statelessness as a design question.
