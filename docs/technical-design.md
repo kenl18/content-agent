@@ -122,7 +122,7 @@ structured error — never a partial or ambiguous shape.
 | `templates` | Template registry + Template Selection logic | providers, transport |
 | `validation` | Applies domain schemas to raw input/output | providers, transport |
 | `generation` | Builds model instructions from a validated request + resolved template | providers, transport |
-| `providers` | `ModelProvider` interface + one concrete implementation | transport |
+| `providers` | `ModelProvider` interface + concrete implementations (Anthropic SDK, ADR-0001; Claude Code CLI, ADR-0017). No routing or fallback between them. | transport |
 | `application` | Orchestrates the six-step pipeline | transport |
 | `transport` | Adapts an external interface (HTTP, CLI, direct call) to the service | — (leaf) |
 
@@ -283,7 +283,8 @@ content-service/
 │   │   └── build-instructions.ts     # (request, template) -> model instructions (pure function)
 │   ├── providers/
 │   │   ├── model-provider.ts         # ModelProvider interface
-│   │   └── anthropic-provider.ts     # V1 concrete implementation (ADR-0001)
+│   │   ├── anthropic-provider.ts     # V1 concrete implementation (ADR-0001)
+│   │   └── claude-code-provider.ts   # Claude Code subscription provider (ADR-0017)
 │   ├── application/
 │   │   └── content-service.ts        # orchestrates the 6-step pipeline
 │   └── transport/

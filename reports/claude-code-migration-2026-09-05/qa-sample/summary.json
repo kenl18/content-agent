@@ -1,0 +1,26 @@
+{
+  "day": "2026-09-05",
+  "bridge": "C:\\Internet Marketing Business\\content-agent\\scripts\\migration\\claude-code-bridge.mjs",
+  "n": 10,
+  "passed": 9,
+  "providersSeen": [
+    "claude-code"
+  ],
+  "modelsSeen": [
+    "claude-sonnet-5"
+  ],
+  "contentAgentCalls": 18,
+  "transportErrors": 0,
+  "providerErrors": [],
+  "parentProcessNetworkHosts": [],
+  "canaryApiKeyUnused": true,
+  "baselineApiSample": [
+    {
+      "esp": "kit_sacred",
+      "dest": "spoptin-stars",
+      "ok": true,
+      "summary": "PASS [A:P B:P C:P D:P E:P F:P G:W H:P] 112w/4p",
+      "words": 112
+    }
+  ]
+}

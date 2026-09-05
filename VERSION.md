@@ -31,7 +31,8 @@ The approved V1 architecture, in full:
 - The immutable engineering principles, 1–12 ([docs/principles.md](docs/principles.md))
 - The inside/outside boundaries ([docs/boundaries.md](docs/boundaries.md))
 - All architecture decision records, ADR-0001 through ADR-0014
-  ([docs/decisions/](docs/decisions/))
+  ([docs/decisions/](docs/decisions/)); ADR-0016 (Phase 1) and ADR-0017 (Claude Code
+  subscription provider, owner GO 2026-09-05) are the approved post-freeze additions
 - The deferred capabilities and Optimization Signals concept
   ([docs/future-vision.md](docs/future-vision.md)) — deferred means deferred; nothing there is
   to be built or further elaborated

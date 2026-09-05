@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { generateContent } from "../../src/application/content-service.js";
-import type { ModelProvider } from "../../src/providers/model-provider.js";
+import { ProviderError, type ModelProvider } from "../../src/providers/model-provider.js";
 import { isContentServiceError } from "../../src/domain/errors.js";
 import { validPromoEmailRequest, validRawRequest } from "../fixtures.js";
 
@@ -193,6 +193,48 @@ describe("generateContent (full pipeline)", () => {
     if (isContentServiceError(result)) {
       expect(result.error.code).toBe("PROVIDER_ERROR");
     }
+  });
+
+  it("keeps a classified provider failure on the wire (ADR-0017)", async () => {
+    const limited: ModelProvider = {
+      name: "claude-code",
+      model: "claude-sonnet-5",
+      generate: async () => {
+        throw new ProviderError("usage limit", {
+          classification: "CLAUDE_SUBSCRIPTION_LIMIT",
+          details: { resetsAt: "2026-09-05T12:00:00.000Z" }
+        });
+      }
+    };
+    const result = await generateContent(validRawRequest(), { provider: limited });
+    expect(isContentServiceError(result)).toBe(true);
+    if (isContentServiceError(result)) {
+      expect(result.error.code).toBe("CLAUDE_SUBSCRIPTION_LIMIT");
+      expect(result.error.details).toEqual({
+        classification: "CLAUDE_SUBSCRIPTION_LIMIT",
+        resetsAt: "2026-09-05T12:00:00.000Z"
+      });
+    }
+
+    const unauthenticated: ModelProvider = {
+      name: "claude-code",
+      model: "claude-sonnet-5",
+      generate: async () => {
+        throw new ProviderError("not logged in", { classification: "CLAUDE_AUTH_UNAVAILABLE" });
+      }
+    };
+    const authResult = await generateContent(validRawRequest(), { provider: unauthenticated });
+    if (isContentServiceError(authResult)) expect(authResult.error.code).toBe("CLAUDE_AUTH_UNAVAILABLE");
+
+    const fault: ModelProvider = {
+      name: "claude-code",
+      model: "claude-sonnet-5",
+      generate: async () => {
+        throw new ProviderError("timed out");
+      }
+    };
+    const faultResult = await generateContent(validRawRequest(), { provider: fault });
+    if (isContentServiceError(faultResult)) expect(faultResult.error.code).toBe("PROVIDER_ERROR");
   });
 
   it("returns PROVIDER_OUTPUT_ERROR when the model output isn't valid JSON", async () => {

@@ -1,7 +1,7 @@
 import type { ContentRequest } from "../domain/content-request.js";
 import type { Production } from "../domain/production.js";
 import type { Template } from "../templates/template.js";
-import type { ModelInstructions } from "../providers/model-provider.js";
+import type { JsonObjectSchema, ModelInstructions } from "../providers/model-provider.js";
 
 function renderProduction(production: Production): string {
   const lines: string[] = [`Production mode: ${production.mode}`];
@@ -35,6 +35,21 @@ function renderProduction(production: Production): string {
   }
 
   return lines.join("\n");
+}
+
+/**
+ * The exact output object the pipeline will validate (mirrors domain/schema-registry.ts
+ * buildContentSchema: every section a non-empty string, required ones mandatory, no extra keys),
+ * expressed as JSON Schema so a provider can enforce it at the model boundary (ADR-0017).
+ */
+export function buildOutputSchema(request: ContentRequest): JsonObjectSchema {
+  const properties: JsonObjectSchema["properties"] = {};
+  const required: string[] = [];
+  for (const section of request.sections) {
+    properties[section.key] = { type: "string", minLength: 1, description: section.description };
+    if (section.required) required.push(section.key);
+  }
+  return { type: "object", properties, required, additionalProperties: false };
 }
 
 /**
@@ -120,5 +135,5 @@ export function buildInstructions(request: ContentRequest, template: Template): 
     .filter((line): line is string => line !== null)
     .join("\n");
 
-  return { system, user };
+  return { system, user, outputSchema: buildOutputSchema(request) };
 }

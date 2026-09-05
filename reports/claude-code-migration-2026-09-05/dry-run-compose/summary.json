@@ -1,0 +1,31 @@
+{
+  "day": "2026-09-07",
+  "plan": "config\\daily-programme-2026-09-07.js",
+  "sends": 31,
+  "generated": 31,
+  "failed": 0,
+  "qaClean": 29,
+  "qaFallback": [
+    "resend_sacred 0700: B/REPETITION",
+    "resend_venuswindow 1700: B/REPETITION"
+  ],
+  "ctaFallback": [
+    "kit_sacred 1100: CTA_NOT_DERIVED"
+  ],
+  "formatFallback": [],
+  "contentAgentCalls": 75,
+  "providersSeen": [
+    "claude-code"
+  ],
+  "modelsSeen": [
+    "claude-sonnet-5"
+  ],
+  "providerErrors": [],
+  "transportErrors": [],
+  "parentProcessNetworkHosts": [],
+  "totalSeconds": 3272,
+  "wordBand": {
+    "min": 86,
+    "max": 121
+  }
+}

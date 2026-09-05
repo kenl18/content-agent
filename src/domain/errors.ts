@@ -2,6 +2,10 @@ export const ERROR_CODES = [
   "VALIDATION_ERROR",
   "UNKNOWN_CONTENT_TYPE",
   "PROVIDER_ERROR",
+  // ADR-0017: subscription-authenticated Claude Code provider failure classes. Both are
+  // provider failures the caller must NOT answer by retrying immediately on a paid API path.
+  "CLAUDE_SUBSCRIPTION_LIMIT",
+  "CLAUDE_AUTH_UNAVAILABLE",
   "PROVIDER_OUTPUT_ERROR",
   "RESPONSE_VALIDATION_ERROR",
   "INTERNAL_ERROR"

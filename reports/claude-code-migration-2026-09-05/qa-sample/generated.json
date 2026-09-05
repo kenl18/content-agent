@@ -1,0 +1,1728 @@
+{
+  "kit_sacred>spoptin-stars": {
+    "esp": "kit_sacred",
+    "dest": "spoptin-stars",
+    "hhmm": "1100",
+    "class": "OPTIN",
+    "copy": {
+      "subject": "The Card Almost Everyone Skips",
+      "kicker": "YOUR FREE READING",
+      "lede": "It's usually the one worth a second look.",
+      "body": "There's one card in every spread that people almost skip — and it's usually the one worth stopping on. The Oracle of the Stars lays out a small spread and asks you to choose a single card yourself. No sign to pick, no date to hunt for — just one card, chosen by you, that comes back with a message built around it. Most people glance at the first card, then move straight past it for the next. The one they almost skipped is usually the one they end up reading twice. You won't know which one that is until you choose.",
+      "inline": "If it is useful, |choose your card, read the message|.",
+      "cta": "Choose your card, read the message",
+      "ctaTaxonomy": "CHOOSE_CARD",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:W H:P] 110w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 110,
+          "bodyOnlyWords": 102,
+          "paragraphs": 4,
+          "subjectChars": 30,
+          "preheaderChars": 41,
+          "concretePer100": 6.86,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 5.18,
+          "openingSentenceWords": 19,
+          "hasSpecificCount": true
+        }
+      },
+      "bodyParas": [
+        "There's one card in every spread that people almost skip — and it's usually the one worth stopping on.",
+        "The Oracle of the Stars lays out a small spread and asks you to choose a single card yourself. No sign to pick, no date to hunt for — just one card, chosen by you, that comes back with a message built around it.",
+        "Most people glance at the first card, then move straight past it for the next. The one they almost skipped is usually the one they end up reading twice. You won't know which one that is until you choose."
+      ]
+    },
+    "score": {
+      "version": "V3",
+      "ok": true,
+      "criteria": {
+        "A": {
+          "name": "DESTINATION_TRUTH",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "B": {
+          "name": "REPETITION",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "C": {
+          "name": "SPECIFICITY",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "D": {
+          "name": "PROGRESSION",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "E": {
+          "name": "CTA",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "F": {
+          "name": "PERSONA",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "G": {
+          "name": "LENGTH",
+          "status": "WARN",
+          "pass": true,
+          "material": true,
+          "findings": [
+            {
+              "code": "REDUNDANT_VOCABULARY",
+              "detail": "18% of content words are used 3+ times (one x6, card x4)",
+              "material": false
+            },
+            {
+              "code": "HOOK_NOT_COMPRESSED",
+              "detail": "the opening sentence runs 19 words; the hook lands harder short (measured winners ~9)",
+              "material": false
+            }
+          ]
+        },
+        "H": {
+          "name": "COMPLIANCE",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        }
+      },
+      "materialFailures": [],
+      "metrics": {
+        "bodyWords": 110,
+        "bodyOnlyWords": 102,
+        "paragraphs": 3,
+        "subjectChars": 30,
+        "preheaderChars": 41,
+        "concretePer100": 6.86,
+        "abstractPer100": 0,
+        "sentenceLengthSD": 5.18,
+        "openingSentenceWords": 19,
+        "hasSpecificCount": false
+      }
+    },
+    "verdicts": {
+      "qa": "PASS",
+      "truth": "PASS",
+      "repetition": "PASS",
+      "filler": "PASS",
+      "cta": "PASS",
+      "persona": "PASS",
+      "failures": [],
+      "truthFailures": [],
+      "repetitionFailures": [],
+      "fillerFailures": [],
+      "ctaFailures": []
+    },
+    "payoff": {
+      "status": "VERIFIED",
+      "payoff": "The Oracle Of The Stars",
+      "allowed": [
+        "card_choice",
+        "card",
+        "message"
+      ],
+      "interaction": "choose_card"
+    },
+    "attempts": 1,
+    "ms": 32076,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-05-kit_sacred-1100-1",
+        "ms": 32027,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:06:40.527Z"
+  },
+  "kit_mystic>moonwindow": {
+    "esp": "kit_mystic",
+    "dest": "moonwindow",
+    "hhmm": "0400",
+    "class": "MONETISATION",
+    "copy": {
+      "subject": "There's a reason this window opened today",
+      "kicker": "SEE WHAT IS BEHIND IT",
+      "lede": "The timing is only part of it — there's a reason attached.",
+      "body": "A 48-hour window opened around you when the Moon shifted today, and your reading ties it to a specific reason — not a general mood, not a vague sign. Most readings this week talk about timing. This one goes further and names why now matters more than it did a few days ago. That reason sits inside the reading itself, not in the opening line. It's the kind of detail that's easy to skim past on a quick read. The window is open while it lasts. See what is behind it before it narrows.",
+      "inline": "If it is useful, |see what is behind it|.",
+      "cta": "See what is behind it",
+      "ctaTaxonomy": "REVEAL_REASON",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:W H:P] 106w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 106,
+          "bodyOnlyWords": 94,
+          "paragraphs": 4,
+          "subjectChars": 41,
+          "preheaderChars": 58,
+          "concretePer100": 6.38,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 7.85,
+          "openingSentenceWords": 29,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "A 48-hour window opened around you when the Moon shifted today, and your reading ties it to a specific reason — not a general mood, not a vague sign.",
+        "Most readings this week talk about timing. This one goes further and names why now matters more than it did a few days ago.",
+        "That reason sits inside the reading itself, not in the opening line. It's the kind of detail that's easy to skim past on a quick read.",
+        "The window is open while it lasts. See what is behind it before it narrows."
+      ]
+    },
+    "score": {
+      "version": "V3",
+      "ok": true,
+      "criteria": {
+        "A": {
+          "name": "DESTINATION_TRUTH",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "B": {
+          "name": "REPETITION",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "C": {
+          "name": "SPECIFICITY",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "D": {
+          "name": "PROGRESSION",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "E": {
+          "name": "CTA",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "F": {
+          "name": "PERSONA",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "G": {
+          "name": "LENGTH",
+          "status": "WARN",
+          "pass": true,
+          "material": true,
+          "findings": [
+            {
+              "code": "HOOK_NOT_COMPRESSED",
+              "detail": "the opening sentence runs 29 words; the hook lands harder short (measured winners ~9)",
+              "material": false
+            }
+          ]
+        },
+        "H": {
+          "name": "COMPLIANCE",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        }
+      },
+      "materialFailures": [],
+      "metrics": {
+        "bodyWords": 106,
+        "bodyOnlyWords": 94,
+        "paragraphs": 4,
+        "subjectChars": 41,
+        "preheaderChars": 58,
+        "concretePer100": 6.38,
+        "abstractPer100": 0,
+        "sentenceLengthSD": 7.85,
+        "openingSentenceWords": 29,
+        "hasSpecificCount": false
+      }
+    },
+    "verdicts": {
+      "qa": "PASS",
+      "truth": "PASS",
+      "repetition": "PASS",
+      "filler": "PASS",
+      "cta": "PASS",
+      "persona": "PASS",
+      "failures": [],
+      "truthFailures": [],
+      "repetitionFailures": [],
+      "fillerFailures": [],
+      "ctaFailures": []
+    },
+    "payoff": {
+      "status": "VERIFIED",
+      "payoff": "The Moon Has Opened A 48-Hour Window For You…",
+      "allowed": [
+        "person",
+        "timing_window",
+        "message",
+        "reason"
+      ],
+      "interaction": "read_only"
+    },
+    "attempts": 1,
+    "ms": 36452,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-05-kit_mystic-0400-1",
+        "ms": 36445,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:07:16.980Z"
+  },
+  "resend_am>raventhorne": {
+    "esp": "resend_am",
+    "dest": "raventhorne",
+    "hhmm": "0100",
+    "class": "MONETISATION",
+    "copy": {
+      "subject": "She doesn't read for just anyone",
+      "kicker": "SEE WHAT SHE SENSED",
+      "lede": "It's one of the versions held back until something lines up.",
+      "body": "Not every reading goes out to everyone on the list. Today's is one Raven Thorne set aside for a smaller group — the kind of reading that gets held back until something in it lines up. What lines up isn't a date, a name, or a number. It's a pattern she saw forming, the sort that usually stays unnoticed until someone points it out. She's pointed it out. What she sensed is already written up and waiting on the page — worth reading in full rather than summarised here.",
+      "inline": "If it is useful, |see what she sensed|.",
+      "cta": "See what she sensed",
+      "ctaTaxonomy": "UNCLASSIFIED",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:P H:P] 100w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "PASS",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 100,
+          "bodyOnlyWords": 89,
+          "paragraphs": 4,
+          "subjectChars": 32,
+          "preheaderChars": 60,
+          "concretePer100": 5.62,
+          "abstractPer100": 1.12,
+          "sentenceLengthSD": 8.04,
+          "openingSentenceWords": 10,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "Not every reading goes out to everyone on the list.",
+        "Today's is one Raven Thorne set aside for a smaller group — the kind of reading that gets held back until something in it lines up.",
+        "What lines up isn't a date, a name, or a number. It's a pattern she saw forming, the sort that usually stays unnoticed until someone points it out.",
+        "She's pointed it out. What she sensed is already written up and waiting on the page — worth reading in full rather than summarised here."
+      ]
+    },
+    "score": {
+      "version": "V3",
+      "ok": true,
+      "criteria": {
+        "A": {
+          "name": "DESTINATION_TRUTH",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "B": {
+          "name": "REPETITION",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "C": {
+          "name": "SPECIFICITY",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "D": {
+          "name": "PROGRESSION",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "E": {
+          "name": "CTA",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "F": {
+          "name": "PERSONA",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "G": {
+          "name": "LENGTH",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "H": {
+          "name": "COMPLIANCE",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        }
+      },
+      "materialFailures": [],
+      "metrics": {
+        "bodyWords": 100,
+        "bodyOnlyWords": 89,
+        "paragraphs": 4,
+        "subjectChars": 32,
+        "preheaderChars": 60,
+        "concretePer100": 5.62,
+        "abstractPer100": 1.12,
+        "sentenceLengthSD": 8.04,
+        "openingSentenceWords": 10,
+        "hasSpecificCount": false
+      }
+    },
+    "verdicts": {
+      "qa": "PASS",
+      "truth": "PASS",
+      "repetition": "PASS",
+      "filler": "PASS",
+      "cta": "PASS",
+      "persona": "PASS",
+      "failures": [],
+      "truthFailures": [],
+      "repetitionFailures": [],
+      "fillerFailures": [],
+      "ctaFailures": []
+    },
+    "payoff": {
+      "status": "VERIFIED",
+      "payoff": "Raven Thorne Doesn't Read For Just Anyone. Today, She Reached For You.",
+      "allowed": [],
+      "interaction": "read_only"
+    },
+    "attempts": 1,
+    "ms": 53555,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-05-resend_am-0100-1",
+        "ms": 53546,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:08:10.536Z"
+  },
+  "gr1_em>manifesting": {
+    "esp": "gr1_em",
+    "dest": "manifesting",
+    "hhmm": "0230",
+    "class": "MONETISATION",
+    "copy": {
+      "subject": "One Person Keeps Coming Back to You",
+      "kicker": "REVEAL WHO THIS PERSON IS",
+      "lede": "Your reading names them — not the feeling, the person.",
+      "body": "Someone keeps returning to you in their thoughts — not once, but often enough that it surfaces in your reading today. Most readings stop at the feeling: a pull, a pattern, a sense that you're on someone's mind. Yours goes further. It names the person behind it. Not a general type, not a star sign — an actual identity, read from the details in front of you. That's the part most readings skip past, because it's the harder line to get right. Yours is already written.",
+      "inline": "If it is useful, |reveal who this person is|.",
+      "cta": "Reveal who this person is",
+      "ctaTaxonomy": "REVEAL_PERSON",
+      "copyQaFallback": "D/PROGRESSION",
+      "copyQa": {
+        "version": "V3",
+        "ok": false,
+        "summary": "REGENERATE [A:P B:P C:W D:F E:P F:P G:W H:P] 96w/5p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "WARN",
+          "D": "FAIL",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 96,
+          "bodyOnlyWords": 86,
+          "paragraphs": 5,
+          "subjectChars": 35,
+          "preheaderChars": 54,
+          "concretePer100": 1.16,
+          "abstractPer100": 1.16,
+          "sentenceLengthSD": 7.74,
+          "openingSentenceWords": 21,
+          "hasSpecificCount": true
+        }
+      },
+      "bodyParas": [
+        "Someone keeps returning to you in their thoughts — not once, but often enough that it surfaces in your reading today.",
+        "Most readings stop at the feeling: a pull, a pattern, a sense that you're on someone's mind. Yours goes further.",
+        "It names the person behind it. Not a general type, not a star sign — an actual identity, read from the details in front of you.",
+        "That's the part most readings skip past, because it's the harder line to get right. Yours is already written."
+      ]
+    },
+    "score": {
+      "version": "V3",
+      "ok": true,
+      "criteria": {
+        "A": {
+          "name": "DESTINATION_TRUTH",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "B": {
+          "name": "REPETITION",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "C": {
+          "name": "SPECIFICITY",
+          "status": "WARN",
+          "pass": true,
+          "material": true,
+          "findings": [
+            {
+              "code": "LOW_CONCRETENESS",
+              "detail": "1.16 concrete nouns per 100 words (measured winners 3.06, losers 0.45) — name things a reader can picture",
+              "material": false
+            }
+          ]
+        },
+        "D": {
+          "name": "PROGRESSION",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "E": {
+          "name": "CTA",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "F": {
+          "name": "PERSONA",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "G": {
+          "name": "LENGTH",
+          "status": "WARN",
+          "pass": true,
+          "material": true,
+          "findings": [
+            {
+              "code": "HOOK_NOT_COMPRESSED",
+              "detail": "the opening sentence runs 21 words; the hook lands harder short (measured winners ~9)",
+              "material": false
+            },
+            {
+              "code": "NO_OPEN_LOOP",
+              "detail": "the final body paragraph closes rather than withholds — the CTA has no loop left to close",
+              "material": false
+            }
+          ]
+        },
+        "H": {
+          "name": "COMPLIANCE",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        }
+      },
+      "materialFailures": [],
+      "metrics": {
+        "bodyWords": 96,
+        "bodyOnlyWords": 86,
+        "paragraphs": 4,
+        "subjectChars": 35,
+        "preheaderChars": 54,
+        "concretePer100": 1.16,
+        "abstractPer100": 1.16,
+        "sentenceLengthSD": 7.74,
+        "openingSentenceWords": 21,
+        "hasSpecificCount": false
+      }
+    },
+    "verdicts": {
+      "qa": "PASS",
+      "truth": "PASS",
+      "repetition": "PASS",
+      "filler": "PASS",
+      "cta": "PASS",
+      "persona": "PASS",
+      "failures": [],
+      "truthFailures": [],
+      "repetitionFailures": [],
+      "fillerFailures": [],
+      "ctaFailures": []
+    },
+    "payoff": {
+      "status": "VERIFIED",
+      "payoff": "Someone Is Manifesting You Right Now…",
+      "allowed": [
+        "person"
+      ],
+      "interaction": "read_only"
+    },
+    "attempts": 6,
+    "ms": 247606,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-05-gr1_em-0230-1",
+        "ms": 42225,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-05-gr1_em-0230-2",
+        "ms": 42611,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-05-gr1_em-0230-3",
+        "ms": 49045,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-05-gr1_em-0230-4",
+        "ms": 56520,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-05-gr1_em-0230-5",
+        "ms": 29301,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-05-gr1_em-0230-6",
+        "ms": 27877,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:12:18.143Z"
+  },
+  "gr4_vw>past-lover-v3": {
+    "esp": "gr4_vw",
+    "dest": "past-lover-v3",
+    "hhmm": "0330",
+    "class": "MONETISATION",
+    "copy": {
+      "subject": "One message, one person from your past",
+      "kicker": "YOUR PAST LOVER READING",
+      "lede": "It's not addressed to anyone else.",
+      "body": "There is one person from your past who still has something to say to you. Not a text you never opened, not a call that went to voicemail — something older than that. One message, never sent, still sitting there. Your reading doesn't leave it vague. It names exactly who it is, and reads out the one line they held back at the time. This isn't a generic spread about \"someone from your past.\" It's built around a specific person and a specific message — not a general shape you have to fit yourself into. What that line actually says is worth reading for yourself.",
+      "inline": "If it is useful, |read the message they left you|.",
+      "cta": "Read the message they left you",
+      "ctaTaxonomy": "REVEAL_PERSON",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:W H:P] 111w/5p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 111,
+          "bodyOnlyWords": 105,
+          "paragraphs": 5,
+          "subjectChars": 38,
+          "preheaderChars": 34,
+          "concretePer100": 2.86,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 8.6,
+          "openingSentenceWords": 15,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "There is one person from your past who still has something to say to you.",
+        "Not a text you never opened, not a call that went to voicemail — something older than that. One message, never sent, still sitting there.",
+        "Your reading doesn't leave it vague. It names exactly who it is, and reads out the one line they held back at the time.",
+        "This isn't a generic spread about \"someone from your past.\" It's built around a specific person and a specific message — not a general shape you have to fit yourself into. What that line actually says is worth reading for yourself."
+      ]
+    },
+    "score": {
+      "version": "V3",
+      "ok": true,
+      "criteria": {
+        "A": {
+          "name": "DESTINATION_TRUTH",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "B": {
+          "name": "REPETITION",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "C": {
+          "name": "SPECIFICITY",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "D": {
+          "name": "PROGRESSION",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "E": {
+          "name": "CTA",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "F": {
+          "name": "PERSONA",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "G": {
+          "name": "LENGTH",
+          "status": "WARN",
+          "pass": true,
+          "material": true,
+          "findings": [
+            {
+              "code": "HOOK_NOT_COMPRESSED",
+              "detail": "the opening sentence runs 15 words; the hook lands harder short (measured winners ~9)",
+              "material": false
+            }
+          ]
+        },
+        "H": {
+          "name": "COMPLIANCE",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        }
+      },
+      "materialFailures": [],
+      "metrics": {
+        "bodyWords": 111,
+        "bodyOnlyWords": 105,
+        "paragraphs": 4,
+        "subjectChars": 38,
+        "preheaderChars": 34,
+        "concretePer100": 2.86,
+        "abstractPer100": 0,
+        "sentenceLengthSD": 8.6,
+        "openingSentenceWords": 15,
+        "hasSpecificCount": false
+      }
+    },
+    "verdicts": {
+      "qa": "PASS",
+      "truth": "PASS",
+      "repetition": "PASS",
+      "filler": "PASS",
+      "cta": "PASS",
+      "persona": "PASS",
+      "failures": [],
+      "truthFailures": [],
+      "repetitionFailures": [],
+      "fillerFailures": [],
+      "ctaFailures": []
+    },
+    "payoff": {
+      "status": "VERIFIED",
+      "payoff": "Your Past Lover Has (1) Message For You...",
+      "allowed": [
+        "person",
+        "number",
+        "card",
+        "message"
+      ],
+      "interaction": "read_only"
+    },
+    "attempts": 2,
+    "ms": 93703,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-05-gr4_vw-0330-1",
+        "ms": 42303,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-05-gr4_vw-0330-2",
+        "ms": 51387,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:13:51.846Z"
+  },
+  "ml_mystic>dailyangelmessage": {
+    "esp": "ml_mystic",
+    "dest": "dailyangelmessage",
+    "hhmm": "1900",
+    "class": "MONETISATION",
+    "copy": {
+      "subject": "A Message Is Waiting, Unopened",
+      "kicker": "YOUR ANGEL MESSAGE",
+      "lede": "It starts with a line most people skim straight past.",
+      "body": "Somewhere in your inbox — or somewhere close to it — there's a message that hasn't been opened yet. Not a newsletter, not a reminder you set for yourself. Something written more personally than that, meant to be read slowly rather than scanned. It opens with a single line — the kind you read once, then read again, because the first pass doesn't quite land. What follows is the part worth pausing for: the reason behind it, laid out plainly instead of left for you to work out on your own.",
+      "inline": "If it is useful, |read the message written for you|.",
+      "cta": "Read the message written for you",
+      "ctaTaxonomy": "REVEAL_MESSAGE",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:W D:P E:P F:P G:W H:P] 101w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "WARN",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 101,
+          "bodyOnlyWords": 91,
+          "paragraphs": 4,
+          "subjectChars": 30,
+          "preheaderChars": 53,
+          "concretePer100": 1.1,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 6.34,
+          "openingSentenceWords": 19,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "Somewhere in your inbox — or somewhere close to it — there's a message that hasn't been opened yet.",
+        "Not a newsletter, not a reminder you set for yourself. Something written more personally than that, meant to be read slowly rather than scanned.",
+        "It opens with a single line — the kind you read once, then read again, because the first pass doesn't quite land.",
+        "What follows is the part worth pausing for: the reason behind it, laid out plainly instead of left for you to work out on your own."
+      ]
+    },
+    "score": {
+      "version": "V3",
+      "ok": true,
+      "criteria": {
+        "A": {
+          "name": "DESTINATION_TRUTH",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "B": {
+          "name": "REPETITION",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "C": {
+          "name": "SPECIFICITY",
+          "status": "WARN",
+          "pass": true,
+          "material": true,
+          "findings": [
+            {
+              "code": "LOW_CONCRETENESS",
+              "detail": "1.1 concrete nouns per 100 words (measured winners 3.06, losers 0.45) — name things a reader can picture",
+              "material": false
+            }
+          ]
+        },
+        "D": {
+          "name": "PROGRESSION",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "E": {
+          "name": "CTA",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "F": {
+          "name": "PERSONA",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "G": {
+          "name": "LENGTH",
+          "status": "WARN",
+          "pass": true,
+          "material": true,
+          "findings": [
+            {
+              "code": "HOOK_NOT_COMPRESSED",
+              "detail": "the opening sentence runs 19 words; the hook lands harder short (measured winners ~9)",
+              "material": false
+            }
+          ]
+        },
+        "H": {
+          "name": "COMPLIANCE",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        }
+      },
+      "materialFailures": [],
+      "metrics": {
+        "bodyWords": 101,
+        "bodyOnlyWords": 91,
+        "paragraphs": 4,
+        "subjectChars": 30,
+        "preheaderChars": 53,
+        "concretePer100": 1.1,
+        "abstractPer100": 0,
+        "sentenceLengthSD": 6.34,
+        "openingSentenceWords": 19,
+        "hasSpecificCount": true
+      }
+    },
+    "verdicts": {
+      "qa": "PASS",
+      "truth": "PASS",
+      "repetition": "PASS",
+      "filler": "PASS",
+      "cta": "PASS",
+      "persona": "PASS",
+      "failures": [],
+      "truthFailures": [],
+      "repetitionFailures": [],
+      "fillerFailures": [],
+      "ctaFailures": []
+    },
+    "payoff": {
+      "status": "VERIFIED",
+      "payoff": "🔮 Your Guardian Angel Has a Message Just for You 🔮",
+      "allowed": [
+        "message",
+        "reason"
+      ],
+      "interaction": "read_only"
+    },
+    "attempts": 2,
+    "ms": 54947,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-05-ml_mystic-1900-1",
+        "ms": 30010,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-05-ml_mystic-1900-2",
+        "ms": 24924,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:14:46.794Z"
+  },
+  "sendfox_vw>venuswindow": {
+    "esp": "sendfox_vw",
+    "dest": "venuswindow",
+    "hhmm": "0200",
+    "class": "MONETISATION",
+    "copy": {
+      "subject": "A short period when Venus tips the scales",
+      "kicker": "SEE WHAT THIS OPENING",
+      "lede": "It's already underway — here's the part worth reading.",
+      "body": "Venus doesn't move fast, but this period is different — a brief opening rather than a long transit, and it changes how attraction and timing line up for you right now. Astrologers who track these openings notice a pattern: a decision about someone comes forward, a conversation gets easier to start, and a person who's been on your mind starts to feel closer than they did last week. What's harder to know from outside is how long this particular shift lasts, and what changes once it starts to close. The reading tied to this period sets that out plainly. That part is worth reading before the moment passes.",
+      "inline": "If it is useful, |see what this opening reveals|.",
+      "cta": "See what this opening reveals",
+      "ctaTaxonomy": "UNCLASSIFIED",
+      "formatV1Reason": "SENDFOX_SEED_UNVERIFIED",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:W H:P] 117w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 117,
+          "bodyOnlyWords": 108,
+          "paragraphs": 4,
+          "subjectChars": 41,
+          "preheaderChars": 54,
+          "concretePer100": 1.85,
+          "abstractPer100": 1.85,
+          "sentenceLengthSD": 12.44,
+          "openingSentenceWords": 31,
+          "hasSpecificCount": true
+        }
+      }
+    },
+    "score": {
+      "version": "V3",
+      "ok": false,
+      "criteria": {
+        "A": {
+          "name": "DESTINATION_TRUTH",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "B": {
+          "name": "REPETITION",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "C": {
+          "name": "SPECIFICITY",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "D": {
+          "name": "PROGRESSION",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "E": {
+          "name": "CTA",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "F": {
+          "name": "PERSONA",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "G": {
+          "name": "LENGTH",
+          "status": "FAIL",
+          "pass": false,
+          "material": true,
+          "findings": [
+            {
+              "code": "PARAGRAPH_SHAPE",
+              "detail": "1 paragraphs outside 3-5 — the V3 shape is HOOK, one core observation, one curiosity development, CTA",
+              "material": true
+            },
+            {
+              "code": "HOOK_NOT_COMPRESSED",
+              "detail": "the opening sentence runs 31 words; the hook lands harder short (measured winners ~9)",
+              "material": false
+            }
+          ]
+        },
+        "H": {
+          "name": "COMPLIANCE",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        }
+      },
+      "materialFailures": [
+        {
+          "criterion": "G",
+          "name": "LENGTH",
+          "status": "FAIL",
+          "reasons": [
+            "PARAGRAPH_SHAPE: 1 paragraphs outside 3-5 — the V3 shape is HOOK, one core observation, one curiosity development, CTA",
+            "HOOK_NOT_COMPRESSED: the opening sentence runs 31 words; the hook lands harder short (measured winners ~9)"
+          ]
+        }
+      ],
+      "metrics": {
+        "bodyWords": 117,
+        "bodyOnlyWords": 108,
+        "paragraphs": 1,
+        "subjectChars": 41,
+        "preheaderChars": 54,
+        "concretePer100": 1.85,
+        "abstractPer100": 1.85,
+        "sentenceLengthSD": 12.44,
+        "openingSentenceWords": 31,
+        "hasSpecificCount": false
+      }
+    },
+    "verdicts": {
+      "qa": "FAIL",
+      "truth": "PASS",
+      "repetition": "PASS",
+      "filler": "PASS",
+      "cta": "PASS",
+      "persona": "PASS",
+      "failures": [
+        "G/LENGTH: PARAGRAPH_SHAPE: 1 paragraphs outside 3-5 — the V3 shape is HOOK, one core observation, one curiosity development, CTA; HOOK_NOT_COMPRESSED: the opening sentence runs 31 words; the hook lands harder short (measured winners ~9)"
+      ],
+      "truthFailures": [],
+      "repetitionFailures": [],
+      "fillerFailures": [],
+      "ctaFailures": [
+        "G/LENGTH: PARAGRAPH_SHAPE: 1 paragraphs outside 3-5 — the V3 shape is HOOK, one core observation, one curiosity development, CTA; HOOK_NOT_COMPRESSED: the opening sentence runs 31 words; the hook lands harder short (measured winners ~9)"
+      ]
+    },
+    "payoff": {
+      "status": "VERIFIED",
+      "payoff": "Your 72-Hour Venus Window Is Now Open",
+      "allowed": [
+        "person",
+        "timing_window"
+      ],
+      "interaction": "read_only"
+    },
+    "attempts": 2,
+    "ms": 105297,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-05-sendfox_vw-0200-1",
+        "ms": 49693,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-05-sendfox_vw-0200-2",
+        "ms": 55586,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:16:32.091Z"
+  },
+  "kit_divine>futuresoulmate": {
+    "esp": "kit_divine",
+    "dest": "futuresoulmate",
+    "hhmm": "0530",
+    "class": "MONETISATION",
+    "copy": {
+      "subject": "You Weren't the Only One Dreaming",
+      "kicker": "YOUR SOULMATE READING",
+      "lede": "They're already closer than you'd expect, and the message is waiting.",
+      "body": "Somewhere, someone has already been dreaming about you. That's the starting point of this reading — not a feeling, not a guess, but a person. According to what's been drawn up for you, they're real, and they're getting closer than you'd expect. There's no card to pick and no sign to guess here. The reading names who this points to, and it holds a message meant for you that you haven't read yet. The message is the part worth your time. Everything else is just the lead-up.",
+      "inline": "If it is useful, |open the message waiting for you|.",
+      "cta": "Open the message waiting for you",
+      "ctaTaxonomy": "SEE_WHAT_IS_WAITING",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:W D:P E:P F:P G:W H:P] 98w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "WARN",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 98,
+          "bodyOnlyWords": 87,
+          "paragraphs": 4,
+          "subjectChars": 33,
+          "preheaderChars": 69,
+          "concretePer100": 1.15,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 5.5,
+          "openingSentenceWords": 8,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "Somewhere, someone has already been dreaming about you.",
+        "That's the starting point of this reading — not a feeling, not a guess, but a person. According to what's been drawn up for you, they're real, and they're getting closer than you'd expect.",
+        "There's no card to pick and no sign to guess here. The reading names who this points to, and it holds a message meant for you that you haven't read yet. The message is the part worth your time. Everything else is just the lead-up."
+      ]
+    },
+    "score": {
+      "version": "V3",
+      "ok": true,
+      "criteria": {
+        "A": {
+          "name": "DESTINATION_TRUTH",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "B": {
+          "name": "REPETITION",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "C": {
+          "name": "SPECIFICITY",
+          "status": "WARN",
+          "pass": true,
+          "material": true,
+          "findings": [
+            {
+              "code": "LOW_CONCRETENESS",
+              "detail": "1.15 concrete nouns per 100 words (measured winners 3.06, losers 0.45) — name things a reader can picture",
+              "material": false
+            }
+          ]
+        },
+        "D": {
+          "name": "PROGRESSION",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "E": {
+          "name": "CTA",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "F": {
+          "name": "PERSONA",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "G": {
+          "name": "LENGTH",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "H": {
+          "name": "COMPLIANCE",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        }
+      },
+      "materialFailures": [],
+      "metrics": {
+        "bodyWords": 98,
+        "bodyOnlyWords": 87,
+        "paragraphs": 3,
+        "subjectChars": 33,
+        "preheaderChars": 69,
+        "concretePer100": 1.15,
+        "abstractPer100": 0,
+        "sentenceLengthSD": 5.5,
+        "openingSentenceWords": 8,
+        "hasSpecificCount": false
+      }
+    },
+    "verdicts": {
+      "qa": "PASS",
+      "truth": "PASS",
+      "repetition": "PASS",
+      "filler": "PASS",
+      "cta": "PASS",
+      "persona": "PASS",
+      "failures": [],
+      "truthFailures": [],
+      "repetitionFailures": [],
+      "fillerFailures": [],
+      "ctaFailures": []
+    },
+    "payoff": {
+      "status": "VERIFIED",
+      "payoff": "✨ Someone Has Already Dreamed of You… And They’re Getting Closer",
+      "allowed": [
+        "person",
+        "message"
+      ],
+      "interaction": "read_only"
+    },
+    "attempts": 1,
+    "ms": 38856,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-05-kit_divine-0530-1",
+        "ms": 38848,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:17:10.948Z"
+  },
+  "gr3_readings>messagenotsent": {
+    "esp": "gr3_readings",
+    "dest": "messagenotsent",
+    "hhmm": "0130",
+    "class": "MONETISATION",
+    "copy": {
+      "subject": "The message someone never pressed send on",
+      "kicker": "THE UNSENT MESSAGE",
+      "lede": "It sat unsent for longer than you'd think.",
+      "body": "Somewhere, on someone's phone, there's a message about you that was written and never sent. You know the feeling — a text open, the words right there, and then the phone locks itself before a thumb finds send. That happened here, too. Your reading names who wrote it, and shows the words exactly as they were typed, before second thoughts took over. It's the first of five steps in this love reading, and it's read-only — nothing to pick, nothing to choose. Just the message, waiting to be read.",
+      "inline": "If it is useful, |open the message they never sent|.",
+      "cta": "Open the message they never sent",
+      "ctaTaxonomy": "REVEAL_PERSON",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:W H:P] 97w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 97,
+          "bodyOnlyWords": 89,
+          "paragraphs": 4,
+          "subjectChars": 41,
+          "preheaderChars": 42,
+          "concretePer100": 2.25,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 7.73,
+          "openingSentenceWords": 15,
+          "hasSpecificCount": true
+        }
+      },
+      "bodyParas": [
+        "Somewhere, on someone's phone, there's a message about you that was written and never sent.",
+        "You know the feeling — a text open, the words right there, and then the phone locks itself before a thumb finds send. That happened here, too.",
+        "Your reading names who wrote it, and shows the words exactly as they were typed, before second thoughts took over.",
+        "It's the first of five steps in this love reading, and it's read-only — nothing to pick, nothing to choose. Just the message, waiting to be read."
+      ]
+    },
+    "score": {
+      "version": "V3",
+      "ok": true,
+      "criteria": {
+        "A": {
+          "name": "DESTINATION_TRUTH",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "B": {
+          "name": "REPETITION",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "C": {
+          "name": "SPECIFICITY",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "D": {
+          "name": "PROGRESSION",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "E": {
+          "name": "CTA",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "F": {
+          "name": "PERSONA",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "G": {
+          "name": "LENGTH",
+          "status": "WARN",
+          "pass": true,
+          "material": true,
+          "findings": [
+            {
+              "code": "HOOK_NOT_COMPRESSED",
+              "detail": "the opening sentence runs 15 words; the hook lands harder short (measured winners ~9)",
+              "material": false
+            },
+            {
+              "code": "NO_OPEN_LOOP",
+              "detail": "the final body paragraph closes rather than withholds — the CTA has no loop left to close",
+              "material": false
+            }
+          ]
+        },
+        "H": {
+          "name": "COMPLIANCE",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        }
+      },
+      "materialFailures": [],
+      "metrics": {
+        "bodyWords": 97,
+        "bodyOnlyWords": 89,
+        "paragraphs": 4,
+        "subjectChars": 41,
+        "preheaderChars": 42,
+        "concretePer100": 2.25,
+        "abstractPer100": 0,
+        "sentenceLengthSD": 7.73,
+        "openingSentenceWords": 15,
+        "hasSpecificCount": false
+      }
+    },
+    "verdicts": {
+      "qa": "PASS",
+      "truth": "PASS",
+      "repetition": "PASS",
+      "filler": "PASS",
+      "cta": "PASS",
+      "persona": "PASS",
+      "failures": [],
+      "truthFailures": [],
+      "repetitionFailures": [],
+      "fillerFailures": [],
+      "ctaFailures": []
+    },
+    "payoff": {
+      "status": "VERIFIED",
+      "payoff": "LOVE READING • STEP 1 OF 5",
+      "allowed": [
+        "person",
+        "message"
+      ],
+      "interaction": "read_only"
+    },
+    "attempts": 1,
+    "ms": 27940,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-05-gr3_readings-0130-1",
+        "ms": 27932,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:17:38.888Z"
+  },
+  "ml_divine>inheritedblock": {
+    "esp": "ml_divine",
+    "dest": "inheritedblock",
+    "hhmm": "1230",
+    "class": "MONETISATION",
+    "copy": {
+      "subject": "The Block You Didn't Choose",
+      "kicker": "SEE THE REASON IT PERSISTS",
+      "lede": "It rarely announces itself before it acts.",
+      "body": "Some patterns aren't yours to begin with. You inherit more than colouring or a turn of phrase. Sometimes it's a way of holding back — a hesitation that shows up before certain decisions, one you didn't build and can't quite trace to anything you did. It might look like putting off a call you've already decided to make, or circling back to the same door you never open. Your reading looks at where that block actually comes from, and why it keeps showing up in the same shape. It isn't there to be endured. It's there to be understood — once you see the reason behind it, it tends to lose its grip.",
+      "inline": "If it is useful, |see the reason it persists|.",
+      "cta": "See the reason it persists",
+      "ctaTaxonomy": "REVEAL_REASON",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:W D:P E:P F:P G:W H:P] 120w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "WARN",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 120,
+          "bodyOnlyWords": 113,
+          "paragraphs": 4,
+          "subjectChars": 27,
+          "preheaderChars": 42,
+          "concretePer100": 0.88,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 8.51,
+          "openingSentenceWords": 7,
+          "hasSpecificCount": true
+        }
+      },
+      "bodyParas": [
+        "Some patterns aren't yours to begin with.",
+        "You inherit more than colouring or a turn of phrase. Sometimes it's a way of holding back — a hesitation that shows up before certain decisions, one you didn't build and can't quite trace to anything you did.",
+        "It might look like putting off a call you've already decided to make, or circling back to the same door you never open. Your reading looks at where that block actually comes from, and why it keeps showing up in the same shape.",
+        "It isn't there to be endured. It's there to be understood — once you see the reason behind it, it tends to lose its grip."
+      ]
+    },
+    "score": {
+      "version": "V3",
+      "ok": true,
+      "criteria": {
+        "A": {
+          "name": "DESTINATION_TRUTH",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "B": {
+          "name": "REPETITION",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "C": {
+          "name": "SPECIFICITY",
+          "status": "WARN",
+          "pass": true,
+          "material": true,
+          "findings": [
+            {
+              "code": "LOW_CONCRETENESS",
+              "detail": "0.88 concrete nouns per 100 words (measured winners 3.06, losers 0.45) — name things a reader can picture",
+              "material": false
+            }
+          ]
+        },
+        "D": {
+          "name": "PROGRESSION",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "E": {
+          "name": "CTA",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "F": {
+          "name": "PERSONA",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        },
+        "G": {
+          "name": "LENGTH",
+          "status": "WARN",
+          "pass": true,
+          "material": true,
+          "findings": [
+            {
+              "code": "NO_OPEN_LOOP",
+              "detail": "the final body paragraph closes rather than withholds — the CTA has no loop left to close",
+              "material": false
+            }
+          ]
+        },
+        "H": {
+          "name": "COMPLIANCE",
+          "status": "PASS",
+          "pass": true,
+          "material": true,
+          "findings": []
+        }
+      },
+      "materialFailures": [],
+      "metrics": {
+        "bodyWords": 120,
+        "bodyOnlyWords": 113,
+        "paragraphs": 4,
+        "subjectChars": 27,
+        "preheaderChars": 42,
+        "concretePer100": 0.88,
+        "abstractPer100": 0,
+        "sentenceLengthSD": 8.51,
+        "openingSentenceWords": 7,
+        "hasSpecificCount": false
+      }
+    },
+    "verdicts": {
+      "qa": "PASS",
+      "truth": "PASS",
+      "repetition": "PASS",
+      "filler": "PASS",
+      "cta": "PASS",
+      "persona": "PASS",
+      "failures": [],
+      "truthFailures": [],
+      "repetitionFailures": [],
+      "fillerFailures": [],
+      "ctaFailures": []
+    },
+    "payoff": {
+      "status": "VERIFIED",
+      "payoff": "There's A Block You Inherited — And It's Quietly Working Against You",
+      "allowed": [
+        "reason"
+      ],
+      "interaction": "read_only"
+    },
+    "attempts": 1,
+    "ms": 35126,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-05-ml_divine-1230-1",
+        "ms": 35117,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:18:14.015Z"
+  }
+}

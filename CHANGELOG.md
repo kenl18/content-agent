@@ -2,6 +2,18 @@
 
 ## Unreleased
 
+- **Claude Code subscription provider (ADR-0017, owner GO 2026-09-05).** New
+  `ClaudeCodeProvider` / `createClaudeCodeProvider()` generates through the local Claude Code CLI
+  (`claude -p --output-format json --json-schema ...`) under the machine's Claude Max login:
+  Console/API credentials and endpoint overrides are scrubbed from the child environment
+  (`SCRUBBED_ENV_VARS`), `claude auth status` must report claude.ai subscription auth before any
+  generation (fail closed, no API fallback), and failures are classified. `ModelInstructions`
+  gains an optional `outputSchema` (built from the request's sections) and `ProviderError` a
+  `classification`; the error contract gains `CLAUDE_SUBSCRIPTION_LIMIT` and
+  `CLAUDE_AUTH_UNAVAILABLE`. EmailOps' scheduled composition switched to this provider; the
+  Anthropic SDK provider remains for callers that supply their own key. Proof scripts:
+  `scripts/claude-code-auth-probe.mts`, `scripts/migration/`. 79 tests, `tsc --noEmit` clean.
+
 - **Renamed the AI system identity: Content Service → Content Agent** (AI Marketing Operating
   System terminology standardization). Documentation-only: package name (`content-service`),
   directory, APIs, contracts (including `ContentServiceError`), and runtime behaviour are

@@ -8,7 +8,7 @@ import {
 } from "../domain/schema-registry.js";
 import { buildInstructions } from "../generation/build-instructions.js";
 import { ProviderError, type ModelProvider } from "../providers/model-provider.js";
-import { createError, type ContentServiceError } from "../domain/errors.js";
+import { createError, type ContentServiceError, type ErrorCode } from "../domain/errors.js";
 import type { ContentResponse } from "../domain/content-response.js";
 
 export interface ContentServiceDeps {
@@ -65,10 +65,22 @@ export async function generateContent(
     try {
       rawOutput = await deps.provider.generate(instructions);
     } catch (cause) {
+      // ADR-0017: a classified provider failure keeps its class on the wire so the caller can
+      // tell "retry now" (PROVIDER_ERROR) from "retry later, never on a paid path"
+      // (CLAUDE_SUBSCRIPTION_LIMIT) from "an operator must act" (CLAUDE_AUTH_UNAVAILABLE).
+      const code: ErrorCode =
+        cause instanceof ProviderError && cause.classification !== "PROVIDER_FAULT"
+          ? cause.classification
+          : "PROVIDER_ERROR";
       const message = cause instanceof ProviderError ? cause.message : "The model provider call failed.";
-      return createError("PROVIDER_ERROR", message, {
+      return createError(code, message, {
         requestId: request.requestId,
-        details: cause instanceof Error ? cause.message : cause
+        details:
+          cause instanceof ProviderError
+            ? { classification: cause.classification, ...(cause.details ?? {}) }
+            : cause instanceof Error
+              ? cause.message
+              : cause
       });
     }
 

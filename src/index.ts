@@ -5,7 +5,17 @@ export type { Production, ProductionMode, ReferenceContent, RequestedVariants } 
 export { PRODUCTION_MODES } from "./domain/production.js";
 
 export { createAnthropicProvider, AnthropicProvider } from "./providers/anthropic-provider.js";
-export type { ModelProvider, ModelInstructions, RawModelOutput } from "./providers/model-provider.js";
+export {
+  createClaudeCodeProvider,
+  ClaudeCodeProvider,
+  buildClaudeCodeEnv,
+  classifyClaudeCodeFailure,
+  resolveClaudeBinary,
+  SCRUBBED_ENV_VARS,
+  DEFAULT_CLAUDE_CODE_MODEL
+} from "./providers/claude-code-provider.js";
+export type { ClaudeCodeProviderOptions, ClaudeCodeAuthStatus } from "./providers/claude-code-provider.js";
+export type { ModelProvider, ModelInstructions, RawModelOutput, JsonObjectSchema, ProviderFailureClass } from "./providers/model-provider.js";
 export { ProviderError } from "./providers/model-provider.js";
 
 export type { ContentRequest, ContentSection, ContentConstraints } from "./domain/content-request.js";

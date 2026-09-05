@@ -90,8 +90,9 @@ and flag it rather than building around it.
 Version 1 is exactly: validate request → Template Selection → Instruction Generation → call one
 model provider → Response Validation → return response. Resist scope creep in either direction:
 
-- Don't add a second provider "for flexibility" — one provider, isolated behind
-  `ModelProvider` interface, per [ADR-0001](docs/decisions/0001-single-model-provider-v1.md).
+- Don't add providers "for flexibility", and never add routing or fallback between the two that
+  exist (Anthropic SDK, ADR-0001; Claude Code subscription, ADR-0017). Each caller picks one
+  explicitly. The Claude Code provider must stay fail-closed: no API-key fallback, ever.
 - Don't add caching, retries-with-backoff-and-circuit-breakers, or persistence "for robustness."
   Basic error propagation is enough for V1.
 - Don't couple the generation pipeline to any specific transport (HTTP framework, CLI, etc.) —
@@ -130,7 +131,10 @@ model provider → Response Validation → return response. Resist scope creep i
 ## Current status
 
 Version 1 is scaffolded and implemented per `docs/technical-design.md`: `domain/`, `templates/`,
-`validation/`, `generation/`, `providers/` (Anthropic), and `application/` are all real code with
+`validation/`, `generation/`, `providers/` (Anthropic SDK per ADR-0001, plus the Claude Code
+subscription provider per [ADR-0017](docs/decisions/0017-claude-code-subscription-provider.md) —
+the one EmailOps' unattended composition uses; it must never fall back to the API key path), and
+`application/` are all real code with
 Vitest coverage (`npm test`), and `npx tsc --noEmit` is clean. `transport/http/server.ts` is an
 intentional placeholder — no HTTP transport yet. The `Template` type carries the ADR-0014
 Strategy Layer structure (`TemplateStrategy`; only `modelGuidance` reaches the model). The

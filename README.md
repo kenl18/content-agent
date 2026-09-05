@@ -121,13 +121,26 @@ npm run typecheck
 npm test
 ```
 
-Set `ANTHROPIC_API_KEY` (see `.env.example`) to actually call `createAnthropicProvider` against
-the real API; tests use an injected fake provider/client and make no network calls.
+Two concrete providers exist behind `ModelProvider` (no routing or fallback between them):
+
+- **Claude Code subscription provider** (`createClaudeCodeProvider()`,
+  [ADR-0017](docs/decisions/0017-claude-code-subscription-provider.md)) — generates through the
+  locally installed Claude Code CLI (`claude -p`) using the machine's Claude subscription login
+  (`claude auth login`), with every Console/API credential scrubbed from the child environment
+  and a fail-closed auth preflight. This is what EmailOps' unattended composition uses; it
+  needs no API key. Prove it from a non-interactive process with
+  `npx tsx scripts/claude-code-auth-probe.mts`.
+- **Anthropic SDK provider** (`createAnthropicProvider({ apiKey })`, ADR-0001) — the Console
+  pay-as-you-go path, for callers that supply their own key (`ANTHROPIC_API_KEY`, see
+  `.env.example`). No automatic path uses it.
+
+Tests use injected fakes for both and make no network calls and spawn no processes.
 
 ## Stack
 
 - TypeScript / Node.js
 - [Zod](https://github.com/colinhacks/zod) for runtime validation
 - [Vitest](https://vitest.dev/) for tests
-- [`@anthropic-ai/sdk`](https://github.com/anthropics/anthropic-sdk-typescript) — the sole V1
-  model provider, isolated behind a `ModelProvider` interface
+- [Claude Code](https://code.claude.com/docs) CLI (subscription-authenticated, spawned as a child
+  process) and [`@anthropic-ai/sdk`](https://github.com/anthropics/anthropic-sdk-typescript) —
+  the two model providers, each isolated behind the `ModelProvider` interface

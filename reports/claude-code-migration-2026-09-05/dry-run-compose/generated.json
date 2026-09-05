@@ -1,0 +1,2158 @@
+{
+  "kit_mystic|0000|dailyangelmessage": {
+    "esp": "kit_mystic",
+    "hhmm": "0000",
+    "dest": "dailyangelmessage",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "Your angel already has something to say",
+      "kicker": "SEE THE REASON IT'S HERE",
+      "lede": "The reason behind it is simpler than it sounds.",
+      "body": "Some messages don't arrive on a set day. This one has been ready for a while — not because of timing, but because of the reason it was sent in the first place. That reason isn't complicated. It's just easy to miss when you're scrolling past it on the way to the ending, the way most people do. You don't have to guess at it. The message spells it out plainly, once you actually sit with it for a minute instead of skimming. The part worth slowing down for isn't the greeting. It's the line right after it.",
+      "inline": "If it is useful, |see the reason it's here|.",
+      "cta": "See the reason it's here",
+      "ctaTaxonomy": "REVEAL_REASON",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:W H:P] 107w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 107,
+          "bodyOnlyWords": 98,
+          "paragraphs": 4,
+          "subjectChars": 39,
+          "preheaderChars": 47,
+          "concretePer100": 2.04,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 7.89,
+          "openingSentenceWords": 8,
+          "hasSpecificCount": true
+        }
+      },
+      "bodyParas": [
+        "Some messages don't arrive on a set day. This one has been ready for a while — not because of timing, but because of the reason it was sent in the first place.",
+        "That reason isn't complicated. It's just easy to miss when you're scrolling past it on the way to the ending, the way most people do.",
+        "You don't have to guess at it. The message spells it out plainly, once you actually sit with it for a minute instead of skimming.",
+        "The part worth slowing down for isn't the greeting. It's the line right after it."
+      ]
+    },
+    "attempts": 2,
+    "ms": 93715,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-kit_mystic-0000-1",
+        "ms": 48947,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-kit_mystic-0000-2",
+        "ms": 44729,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:23:54.475Z"
+  },
+  "resend_am|0100|manifesting": {
+    "esp": "resend_am",
+    "hhmm": "0100",
+    "dest": "manifesting",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "Someone has been thinking about you",
+      "kicker": "REVEAL WHO THIS NAMES",
+      "lede": "Their name is already written into it.",
+      "body": "Someone has been thinking about you with more intention than usual — not a passing thought, but something closer to a decision. Your reading names them. Not a personality type or a vague description, but a person specific enough to recognise once you see it written down. Most readings like this describe a feeling and leave the rest to you. This one goes further: it points at who, not just what. That's the part worth reading slowly — the line where the reading stops describing a feeling and starts describing a person.",
+      "inline": "If it is useful, |reveal who this names|.",
+      "cta": "Reveal who this names",
+      "ctaTaxonomy": "REVEAL_PERSON",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:W D:P E:P F:P G:W H:P] 99w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "WARN",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 99,
+          "bodyOnlyWords": 92,
+          "paragraphs": 4,
+          "subjectChars": 35,
+          "preheaderChars": 38,
+          "concretePer100": 1.09,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 7.23,
+          "openingSentenceWords": 22,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "Someone has been thinking about you with more intention than usual — not a passing thought, but something closer to a decision.",
+        "Your reading names them. Not a personality type or a vague description, but a person specific enough to recognise once you see it written down.",
+        "Most readings like this describe a feeling and leave the rest to you. This one goes further: it points at who, not just what.",
+        "That's the part worth reading slowly — the line where the reading stops describing a feeling and starts describing a person."
+      ]
+    },
+    "attempts": 4,
+    "ms": 158950,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_am-0100-1",
+        "ms": 42207,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_am-0100-2",
+        "ms": 42379,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_am-0100-3",
+        "ms": 46591,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_am-0100-4",
+        "ms": 27764,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:26:33.426Z"
+  },
+  "gr3_readings|0130|futuresoulmate": {
+    "esp": "gr3_readings",
+    "hhmm": "0130",
+    "dest": "futuresoulmate",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "Someone in your dreams is getting closer",
+      "kicker": "YOUR SOULMATE READING",
+      "lede": "Their name is part of what's waiting for you.",
+      "body": "Someone has been dreaming of you, and they are getting closer. In a reading like this, distance usually shows up first — the dream stays vague, half-formed, easy to forget by morning. When it starts pulling into focus instead, something has shifted on their side of it. Your reading names them. Not a type, not a general description — the actual person behind it. There is a message attached too, and it only makes full sense once you know whose it is.",
+      "inline": "If it is useful, |reveal who is dreaming of you|.",
+      "cta": "Reveal who is dreaming of you",
+      "ctaTaxonomy": "REVEAL_PERSON",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:W D:P E:P F:P G:W H:P] 91w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "WARN",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 91,
+          "bodyOnlyWords": 82,
+          "paragraphs": 4,
+          "subjectChars": 40,
+          "preheaderChars": 45,
+          "concretePer100": 1.22,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 5.92,
+          "openingSentenceWords": 11,
+          "hasSpecificCount": true
+        }
+      },
+      "bodyParas": [
+        "Someone has been dreaming of you, and they are getting closer.",
+        "In a reading like this, distance usually shows up first — the dream stays vague, half-formed, easy to forget by morning. When it starts pulling into focus instead, something has shifted on their side of it.",
+        "Your reading names them. Not a type, not a general description — the actual person behind it.",
+        "There is a message attached too, and it only makes full sense once you know whose it is."
+      ]
+    },
+    "attempts": 2,
+    "ms": 59349,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-gr3_readings-0130-1",
+        "ms": 27436,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-gr3_readings-0130-2",
+        "ms": 31905,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:27:32.776Z"
+  },
+  "sendfox_vw|0200|dailyangelmessage": {
+    "esp": "sendfox_vw",
+    "hhmm": "0200",
+    "dest": "dailyangelmessage",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "A message came for you, and it waited",
+      "kicker": "OPEN THE MESSAGE THAT",
+      "lede": "It reached you only once you'd stopped rushing past it.",
+      "body": "A message meant for you has been sitting unopened for longer than it probably should have. Not lost, not forgotten. It was written and set aside, waiting for a point when you'd actually read it properly rather than skim the first line and move on. That point is now. The reasoning inside only makes sense once you've read the whole thing — the middle section changes what the first line seemed to mean, and skipping ahead won't get you there any faster. There's no card to pick and no name attached to it. Just the message itself, ready whenever you are.",
+      "inline": "If it is useful, |open the message that waited|.",
+      "cta": "Open the message that waited",
+      "ctaTaxonomy": "REVEAL_MESSAGE",
+      "formatV1Reason": "SENDFOX_SEED_UNVERIFIED",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:W H:P] 111w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 111,
+          "bodyOnlyWords": 101,
+          "paragraphs": 4,
+          "subjectChars": 37,
+          "preheaderChars": 55,
+          "concretePer100": 3.96,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 11.03,
+          "openingSentenceWords": 16,
+          "hasSpecificCount": false
+        }
+      }
+    },
+    "attempts": 2,
+    "ms": 78838,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-sendfox_vw-0200-1",
+        "ms": 34877,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-sendfox_vw-0200-2",
+        "ms": 43949,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:28:51.614Z"
+  },
+  "gr1_em|0230|dailyangelmessage": {
+    "esp": "gr1_em",
+    "hhmm": "0230",
+    "dest": "dailyangelmessage",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "There's a reason this message is yours",
+      "kicker": "SEE THE REASON BEHIND IT",
+      "lede": "The message answers the why before the what.",
+      "body": "Most guardian angel messages read the same: gentle, general, easy to skim past. This one is different, because it doesn't stop at what it says. It also explains why. That reason is usually the part left out of these readings. It's not a date, not a name, not a countdown. It's simply the logic behind the message itself, the thing that makes it fit you rather than anyone else who reads it today. Read it once, and the message makes sense on its own. Read it again, knowing the reason behind it, and it starts to feel less general and more addressed. The message is short. The reason takes longer to settle in.",
+      "inline": "If it is useful, |see the reason behind it|.",
+      "cta": "See the reason behind it",
+      "ctaTaxonomy": "REVEAL_REASON",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:W C:P D:P E:P F:P G:W H:P] 121w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "WARN",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 121,
+          "bodyOnlyWords": 113,
+          "paragraphs": 4,
+          "subjectChars": 38,
+          "preheaderChars": 44,
+          "concretePer100": 1.77,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 5.89,
+          "openingSentenceWords": 13,
+          "hasSpecificCount": true
+        }
+      },
+      "bodyParas": [
+        "Most guardian angel messages read the same: gentle, general, easy to skim past. This one is different, because it doesn't stop at what it says. It also explains why.",
+        "That reason is usually the part left out of these readings. It's not a date, not a name, not a countdown. It's simply the logic behind the message itself, the thing that makes it fit you rather than anyone else who reads it today.",
+        "Read it once, and the message makes sense on its own. Read it again, knowing the reason behind it, and it starts to feel less general and more addressed. The message is short. The reason takes longer to settle in."
+      ]
+    },
+    "attempts": 3,
+    "ms": 148443,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-gr1_em-0230-1",
+        "ms": 34553,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-gr1_em-0230-2",
+        "ms": 65819,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-gr1_em-0230-3",
+        "ms": 48058,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:31:20.058Z"
+  },
+  "gr4_vw|0330|past-lover-v3": {
+    "esp": "gr4_vw",
+    "hhmm": "0330",
+    "dest": "past-lover-v3",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "A name returned without you calling it",
+      "kicker": "OPEN THE MESSAGE HE LEFT",
+      "lede": "The reading doesn't stay vague about it. It names him directly.",
+      "body": "You didn't call his name to mind. It surfaced on its own — halfway through something else, uninvited, and unmistakably him. That kind of return rarely happens for no reason. Somewhere in what the two of you shared, something stayed unfinished, and unfinished things have a way of resurfacing. A past lover reading has drawn out a single message about him specifically — not a general shape of someone, but him. It names the part that was left unsaid. Open it, and see what you're only now ready to hear.",
+      "inline": "If it is useful, |open the message he left|.",
+      "cta": "Open the message he left",
+      "ctaTaxonomy": "REVEAL_MESSAGE",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:W D:P E:P F:P G:P H:P] 101w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "WARN",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "PASS",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 101,
+          "bodyOnlyWords": 90,
+          "paragraphs": 4,
+          "subjectChars": 38,
+          "preheaderChars": 63,
+          "concretePer100": 1.11,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 5.76,
+          "openingSentenceWords": 7,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "You didn't call his name to mind. It surfaced on its own — halfway through something else, uninvited, and unmistakably him.",
+        "That kind of return rarely happens for no reason. Somewhere in what the two of you shared, something stayed unfinished, and unfinished things have a way of resurfacing.",
+        "A past lover reading has drawn out a single message about him specifically — not a general shape of someone, but him. It names the part that was left unsaid. Open it, and see what you're only now ready to hear."
+      ]
+    },
+    "attempts": 3,
+    "ms": 137172,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-gr4_vw-0330-1",
+        "ms": 51133,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-gr4_vw-0330-2",
+        "ms": 46828,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-gr4_vw-0330-3",
+        "ms": 39204,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:33:37.231Z"
+  },
+  "kit_mystic|0400|loverlinger": {
+    "esp": "kit_mystic",
+    "hhmm": "0400",
+    "dest": "loverlinger",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "A name that never fully left",
+      "kicker": "SEE WHO YOUR READING NAMES",
+      "lede": "It may explain why someone still crosses your mind.",
+      "body": "A name can surface years after you thought that story had closed — mid-conversation, for no clear reason at all. That's rarely just memory being sentimental. More often it means the goodbye was never actually finished, only left unsaid. This reading doesn't deal in the vague idea of \"an ex.\" It names the person directly, then works out whether what was between you got resolved, or only postponed. Some connections end cleanly. Others just go quiet, waiting on the conversation that never happened. This one settles which kind yours was.",
+      "inline": "If it is useful, |see who your reading names|.",
+      "cta": "See who your reading names",
+      "ctaTaxonomy": "REVEAL_PERSON",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:W D:P E:P F:P G:W H:P] 99w/5p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "WARN",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 99,
+          "bodyOnlyWords": 90,
+          "paragraphs": 5,
+          "subjectChars": 28,
+          "preheaderChars": 51,
+          "concretePer100": 1.11,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 8.9,
+          "openingSentenceWords": 20,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "A name can surface years after you thought that story had closed — mid-conversation, for no clear reason at all.",
+        "That's rarely just memory being sentimental. More often it means the goodbye was never actually finished, only left unsaid.",
+        "This reading doesn't deal in the vague idea of \"an ex.\" It names the person directly, then works out whether what was between you got resolved, or only postponed.",
+        "Some connections end cleanly. Others just go quiet, waiting on the conversation that never happened. This one settles which kind yours was."
+      ]
+    },
+    "attempts": 1,
+    "ms": 62161,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-kit_mystic-0400-1",
+        "ms": 62152,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:34:39.392Z"
+  },
+  "kit_sacred|0430|messagenotsent": {
+    "esp": "kit_sacred",
+    "hhmm": "0430",
+    "dest": "messagenotsent",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "Someone Wrote This And Stopped ✉️",
+      "kicker": "THE UNSENT MESSAGE",
+      "lede": "It never made it past a draft, and it names someone.",
+      "body": "Some messages get written and never sent. Not deleted. Not forgotten. Just left — folded away somewhere, waiting for the right person to open it. Yours is one of those. A reading built around a message that was meant for you, holding a name inside it — not a hint, not an initial, but someone you'll recognise the instant you read it. Most people expect the reveal to be about a feeling. This one is about a person, named plainly, and the words written for them. What the message actually says matters more than who wrote it. That's the part worth reading slowly, all the way to the end.",
+      "inline": "If it is useful, |reveal the message and the name|.",
+      "cta": "Reveal the message and the name",
+      "ctaTaxonomy": "REVEAL_PERSON",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:P H:P] 120w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "PASS",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 120,
+          "bodyOnlyWords": 109,
+          "paragraphs": 4,
+          "subjectChars": 33,
+          "preheaderChars": 52,
+          "concretePer100": 1.83,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 8.66,
+          "openingSentenceWords": 7,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "Some messages get written and never sent. Not deleted. Not forgotten. Just left — folded away somewhere, waiting for the right person to open it.",
+        "Yours is one of those. A reading built around a message that was meant for you, holding a name inside it — not a hint, not an initial, but someone you'll recognise the instant you read it.",
+        "Most people expect the reveal to be about a feeling. This one is about a person, named plainly, and the words written for them.",
+        "What the message actually says matters more than who wrote it. That's the part worth reading slowly, all the way to the end."
+      ]
+    },
+    "attempts": 1,
+    "ms": 62409,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-kit_sacred-0430-1",
+        "ms": 62404,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:35:41.802Z"
+  },
+  "ml_venuswindow|0500|soulmatesignal": {
+    "esp": "ml_venuswindow",
+    "hhmm": "0500",
+    "dest": "soulmatesignal",
+    "class": "CONTENDER",
+    "copy": {
+      "subject": "Someone signalled you by name",
+      "kicker": "REVEAL WHO THIS SIGNAL NAMES",
+      "lede": "It didn't come with a date, only a name attached.",
+      "body": "Someone is trying to reach you. Not by phone, not by text — through a signal your reading has already picked up. It didn't arrive with a date or a countdown. It arrived carrying a name — someone specific, already connected to what you've been sensing but haven't said out loud. Decoding it is the only way to see who that name belongs to. Left alone, it stays exactly what it is right now: unread, and unclaimed. You don't have to guess at it. You can simply see what it says.",
+      "inline": "If it is useful, |reveal who this signal names|.",
+      "cta": "Reveal who this signal names",
+      "ctaTaxonomy": "REVEAL_PERSON",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:P H:P] 101w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "PASS",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 101,
+          "bodyOnlyWords": 91,
+          "paragraphs": 4,
+          "subjectChars": 29,
+          "preheaderChars": 49,
+          "concretePer100": 3.3,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 4.98,
+          "openingSentenceWords": 6,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "Someone is trying to reach you. Not by phone, not by text — through a signal your reading has already picked up.",
+        "It didn't arrive with a date or a countdown. It arrived carrying a name — someone specific, already connected to what you've been sensing but haven't said out loud.",
+        "Decoding it is the only way to see who that name belongs to. Left alone, it stays exactly what it is right now: unread, and unclaimed. You don't have to guess at it. You can simply see what it says."
+      ]
+    },
+    "attempts": 3,
+    "ms": 134741,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-ml_venuswindow-0500-1",
+        "ms": 45784,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-ml_venuswindow-0500-2",
+        "ms": 34317,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-ml_venuswindow-0500-3",
+        "ms": 54624,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:37:56.544Z"
+  },
+  "kit_divine|0530|dailyangelmessage": {
+    "esp": "kit_divine",
+    "hhmm": "0530",
+    "dest": "dailyangelmessage",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "Your guardian angel left something unread",
+      "kicker": "OPEN YOUR GUARDIAN MESSAGE",
+      "lede": "Guardian messages don't announce themselves loudly.",
+      "body": "Your guardian angel already has a message set aside for you — not a general blessing sent to everyone, but something written with you in mind. Most people stop at the opening line and never reach the rest. The part further down tends to say something plainer and closer to home than the first line lets on. It isn't held back by timing or chance. It stays unread simply because most people close the page before they reach the line that matters. Yours is still there, exactly as it was written.",
+      "inline": "If it is useful, |open your guardian message|.",
+      "cta": "Open your guardian message",
+      "ctaTaxonomy": "REVEAL_MESSAGE",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:W H:P] 97w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 97,
+          "bodyOnlyWords": 91,
+          "paragraphs": 4,
+          "subjectChars": 41,
+          "preheaderChars": 51,
+          "concretePer100": 4.4,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 6.85,
+          "openingSentenceWords": 26,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "Your guardian angel already has a message set aside for you — not a general blessing sent to everyone, but something written with you in mind.",
+        "Most people stop at the opening line and never reach the rest. The part further down tends to say something plainer and closer to home than the first line lets on.",
+        "It isn't held back by timing or chance. It stays unread simply because most people close the page before they reach the line that matters. Yours is still there, exactly as it was written."
+      ]
+    },
+    "attempts": 4,
+    "ms": 198589,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-kit_divine-0530-1",
+        "ms": 45267,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-kit_divine-0530-2",
+        "ms": 62085,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-kit_divine-0530-3",
+        "ms": 38938,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-kit_divine-0530-4",
+        "ms": 52286,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:41:15.134Z"
+  },
+  "gr1_em|0630|futuresoulmate": {
+    "esp": "gr1_em",
+    "hhmm": "0630",
+    "dest": "futuresoulmate",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "Someone dreamed of you first",
+      "kicker": "SEE WHO THE MESSAGE NAMES",
+      "lede": "The message it left behind names someone, not a type.",
+      "body": "Someone dreamed of you before you dreamed of them. That's the detail sitting inside this week's reading — the dream started on their side first, not yours. Most readings like this stay vague, a type rather than a person. This one is different: there's enough detail forming that it points to someone specific. The message doesn't explain why it happened this way. It only says what came through once it did, and it names who it's about. Easier to read the actual message than to keep guessing at the shape of it.",
+      "inline": "If it is useful, |see who the message names|.",
+      "cta": "See who the message names",
+      "ctaTaxonomy": "REVEAL_PERSON",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:W D:P E:P F:P G:W H:P] 102w/5p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "WARN",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 102,
+          "bodyOnlyWords": 92,
+          "paragraphs": 5,
+          "subjectChars": 28,
+          "preheaderChars": 53,
+          "concretePer100": 1.09,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 3.34,
+          "openingSentenceWords": 9,
+          "hasSpecificCount": true
+        }
+      },
+      "bodyParas": [
+        "Someone dreamed of you before you dreamed of them.",
+        "That's the detail sitting inside this week's reading — the dream started on their side first, not yours.",
+        "Most readings like this stay vague, a type rather than a person. This one is different: there's enough detail forming that it points to someone specific.",
+        "The message doesn't explain why it happened this way. It only says what came through once it did, and it names who it's about. Easier to read the actual message than to keep guessing at the shape of it."
+      ]
+    },
+    "attempts": 3,
+    "ms": 110640,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-gr1_em-0630-1",
+        "ms": 41002,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-gr1_em-0630-2",
+        "ms": 45108,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-gr1_em-0630-3",
+        "ms": 24521,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:43:05.775Z"
+  },
+  "resend_sacred|0700|manifesting": {
+    "esp": "resend_sacred",
+    "hhmm": "0700",
+    "dest": "manifesting",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "A name behind the pull you noticed",
+      "kicker": "REVEAL THE NAME BEHIND IT",
+      "lede": "It surfaced twice for a reason you haven't traced yet.",
+      "body": "You know the feeling when a name surfaces twice before lunch — once in your own head, once out loud from someone else's mouth. It rarely happens for no reason. This reading isn't a general nudge about the week ahead. It points at one particular person who is, right now, caught up in thinking of you more than they'd admit out loud. The pull you've noticed has a source. The reading doesn't stop at describing the feeling — it names who's behind it. If a name has already crossed your mind twice today, this is worth five minutes of your attention.",
+      "inline": "If it is useful, |reveal the name behind it|.",
+      "cta": "Reveal the name behind it",
+      "ctaTaxonomy": "REVEAL_PERSON",
+      "copyQaFallback": "B/REPETITION",
+      "copyQa": {
+        "version": "V3",
+        "ok": false,
+        "summary": "REGENERATE [A:P B:F C:P D:P E:P F:P G:W H:P] 111w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "FAIL",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 111,
+          "bodyOnlyWords": 101,
+          "paragraphs": 4,
+          "subjectChars": 34,
+          "preheaderChars": 54,
+          "concretePer100": 2.97,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 7.16,
+          "openingSentenceWords": 24,
+          "hasSpecificCount": true
+        }
+      },
+      "bodyParas": [
+        "You know the feeling when a name surfaces twice before lunch — once in your own head, once out loud from someone else's mouth. It rarely happens for no reason.",
+        "This reading isn't a general nudge about the week ahead. It points at one particular person who is, right now, caught up in thinking of you more than they'd admit out loud.",
+        "The pull you've noticed has a source. The reading doesn't stop at describing the feeling — it names who's behind it.",
+        "If a name has already crossed your mind twice today, this is worth five minutes of your attention."
+      ]
+    },
+    "attempts": 6,
+    "ms": 196143,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_sacred-0700-1",
+        "ms": 24654,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_sacred-0700-2",
+        "ms": 33781,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_sacred-0700-3",
+        "ms": 30464,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_sacred-0700-4",
+        "ms": 23696,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_sacred-0700-5",
+        "ms": 41580,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_sacred-0700-6",
+        "ms": 41943,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:46:21.919Z"
+  },
+  "gr2_divine|0730|past-lover-v3": {
+    "esp": "gr2_divine",
+    "hhmm": "0730",
+    "dest": "past-lover-v3",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "One message, and it's from him",
+      "kicker": "OPEN THE MESSAGE HE LEFT",
+      "lede": "It's shorter than you'd expect, and harder to ignore.",
+      "body": "There's a version of him that still remembers exactly how things ended between you two. Not the version he shows anyone else — the one that surfaces on evenings when your name comes back to him unbidden, and he doesn't quite push it away. That version left one message. Not a summary of what happened, not advice for moving on — a single line, specific to the two of you, sitting in a reading that's already been prepared. It's short. It's exact. And it's waiting to be read, not guessed at.",
+      "inline": "If it is useful, |open the message he left|.",
+      "cta": "Open the message he left",
+      "ctaTaxonomy": "REVEAL_MESSAGE",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:W H:P] 100w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 100,
+          "bodyOnlyWords": 91,
+          "paragraphs": 4,
+          "subjectChars": 30,
+          "preheaderChars": 53,
+          "concretePer100": 2.2,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 11.82,
+          "openingSentenceWords": 15,
+          "hasSpecificCount": true
+        }
+      },
+      "bodyParas": [
+        "There's a version of him that still remembers exactly how things ended between you two.",
+        "Not the version he shows anyone else — the one that surfaces on evenings when your name comes back to him unbidden, and he doesn't quite push it away.",
+        "That version left one message. Not a summary of what happened, not advice for moving on — a single line, specific to the two of you, sitting in a reading that's already been prepared. It's short. It's exact. And it's waiting to be read, not guessed at."
+      ]
+    },
+    "attempts": 1,
+    "ms": 36169,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-gr2_divine-0730-1",
+        "ms": 36165,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:46:58.089Z"
+  },
+  "kit_mystic|0800|messagenotsent": {
+    "esp": "kit_mystic",
+    "hhmm": "0800",
+    "dest": "messagenotsent",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "Written, but never sent",
+      "kicker": "READ WHAT NEVER GOT SENT",
+      "lede": "It surfaces in your reading, already addressed and waiting.",
+      "body": "There's a message that got written and never sent. Not lost, not deleted — just left sitting, unopened, in an outbox nobody closed. Your reading opens with that message. It names who wrote it, and it names who it was meant for. There's no card to pick and nothing to reply to. You simply read it, the way it was meant to be read the first time. What's harder to explain is why it never went — and what it says now that it's finally being read: the line that might have changed something, if it had arrived when it was meant to.",
+      "inline": "If it is useful, |read what never got sent|.",
+      "cta": "Read what never got sent",
+      "ctaTaxonomy": "UNCLASSIFIED",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:W H:P] 112w/5p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 112,
+          "bodyOnlyWords": 103,
+          "paragraphs": 5,
+          "subjectChars": 23,
+          "preheaderChars": 59,
+          "concretePer100": 1.94,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 9.89,
+          "openingSentenceWords": 9,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "There's a message that got written and never sent.",
+        "Not lost, not deleted — just left sitting, unopened, in an outbox nobody closed. Your reading opens with that message. It names who wrote it, and it names who it was meant for.",
+        "There's no card to pick and nothing to reply to. You simply read it, the way it was meant to be read the first time.",
+        "What's harder to explain is why it never went — and what it says now that it's finally being read: the line that might have changed something, if it had arrived when it was meant to."
+      ]
+    },
+    "attempts": 1,
+    "ms": 67150,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-kit_mystic-0800-1",
+        "ms": 67145,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:48:05.239Z"
+  },
+  "resend_am|0815|loverlinger": {
+    "esp": "resend_am",
+    "hhmm": "0815",
+    "dest": "loverlinger",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "This one names someone, not a plan",
+      "kicker": "REVEAL THE NAME IT POINTS TO",
+      "lede": "It skips the reasons and goes straight to the name.",
+      "body": "Some loves never really end. They just stop being talked about, and slip into the part of your memory you don't visit often. This reading works from that idea. It doesn't stay general - it settles on one connection in particular and names the person attached to it. Not a type. Not a theme. An actual name, printed plainly, for the one relationship that never quite finished for you. It doesn't explain why the feeling lingered. It only tells you who it's about - and once you see the name, the rest tends to make sense on its own.",
+      "inline": "If it is useful, |reveal the name it points to|.",
+      "cta": "Reveal the name it points to",
+      "ctaTaxonomy": "REVEAL_PERSON",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:P H:P] 109w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "PASS",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 109,
+          "bodyOnlyWords": 99,
+          "paragraphs": 4,
+          "subjectChars": 34,
+          "preheaderChars": 51,
+          "concretePer100": 2.02,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 7.73,
+          "openingSentenceWords": 5,
+          "hasSpecificCount": true
+        }
+      },
+      "bodyParas": [
+        "Some loves never really end. They just stop being talked about, and slip into the part of your memory you don't visit often.",
+        "This reading works from that idea. It doesn't stay general - it settles on one connection in particular and names the person attached to it.",
+        "Not a type. Not a theme. An actual name, printed plainly, for the one relationship that never quite finished for you.",
+        "It doesn't explain why the feeling lingered. It only tells you who it's about - and once you see the name, the rest tends to make sense on its own."
+      ]
+    },
+    "attempts": 1,
+    "ms": 46195,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_am-0815-1",
+        "ms": 46191,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:48:51.435Z"
+  },
+  "kit_sacred|0830|loveaura": {
+    "esp": "kit_sacred",
+    "hhmm": "0830",
+    "dest": "loveaura",
+    "class": "CONTENDER",
+    "copy": {
+      "subject": "There's A Colour Behind How You Love 💗",
+      "kicker": "YOUR LOVE AURA",
+      "lede": "Most people never learn what shade their heart moves in.",
+      "body": "Every love aura carries a colour, though almost no one ever learns which one is theirs. Some run warm — quick to reassure, quick to reach for a hand first. Others run cool, steadier under pressure, slower to let someone properly in. Neither is better than the other. But knowing which one you're working from changes how you read the moments that actually get complicated. Your reading names the shade yours falls into, and what that colour tends to do under stress, in silence, and in the early weeks of something new. It's a short read, and it's sitting there whenever you're ready for it.",
+      "inline": "If it is useful, |reveal your aura's true colour|.",
+      "cta": "Reveal your aura's true colour",
+      "ctaTaxonomy": "UNCLASSIFIED",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:W D:P E:P F:P G:W H:P] 115w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "WARN",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 115,
+          "bodyOnlyWords": 105,
+          "paragraphs": 4,
+          "subjectChars": 39,
+          "preheaderChars": 56,
+          "concretePer100": 0.95,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 6.38,
+          "openingSentenceWords": 16,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "Every love aura carries a colour, though almost no one ever learns which one is theirs.",
+        "Some run warm — quick to reassure, quick to reach for a hand first. Others run cool, steadier under pressure, slower to let someone properly in. Neither is better than the other. But knowing which one you're working from changes how you read the moments that actually get complicated.",
+        "Your reading names the shade yours falls into, and what that colour tends to do under stress, in silence, and in the early weeks of something new. It's a short read, and it's sitting there whenever you're ready for it."
+      ]
+    },
+    "attempts": 2,
+    "ms": 83797,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-kit_sacred-0830-1",
+        "ms": 46367,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-kit_sacred-0830-2",
+        "ms": 37421,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:50:15.233Z"
+  },
+  "kit_divine|0930|soulmateblock": {
+    "esp": "kit_divine",
+    "hhmm": "0930",
+    "dest": "soulmateblock",
+    "class": "CONTENDER",
+    "copy": {
+      "subject": "A Block Traced Back To One Person",
+      "kicker": "YOUR READING",
+      "lede": "Your heart named the feeling first; this names who it belongs to.",
+      "body": "You have felt this block long before you had a word for it — a hesitation you could not explain, a door that never quite opened. Your reading does not stop at the feeling. It follows the block back to where it started, and names the person tied to it. Not a type. Not a maybe. A specific identity, sitting at the root of what has kept your soulmate connection from forming. Once you see who it is, the block reads differently — less like bad luck, more like something with an actual cause.",
+      "inline": "If it is useful, |reveal the person behind your block|.",
+      "cta": "Reveal the person behind your block",
+      "ctaTaxonomy": "REVEAL_PERSON",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:W H:P] 106w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 106,
+          "bodyOnlyWords": 94,
+          "paragraphs": 4,
+          "subjectChars": 33,
+          "preheaderChars": 65,
+          "concretePer100": 2.13,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 9.05,
+          "openingSentenceWords": 26,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "You have felt this block long before you had a word for it — a hesitation you could not explain, a door that never quite opened.",
+        "Your reading does not stop at the feeling. It follows the block back to where it started, and names the person tied to it.",
+        "Not a type. Not a maybe. A specific identity, sitting at the root of what has kept your soulmate connection from forming.",
+        "Once you see who it is, the block reads differently — less like bad luck, more like something with an actual cause."
+      ]
+    },
+    "attempts": 2,
+    "ms": 84659,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-kit_divine-0930-1",
+        "ms": 43593,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-kit_divine-0930-2",
+        "ms": 41057,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:51:39.893Z"
+  },
+  "gr1_em|1030|loverlinger": {
+    "esp": "gr1_em",
+    "hhmm": "1030",
+    "dest": "loverlinger",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "It never got the chance to end",
+      "kicker": "SEE WHO THIS POINTS TO",
+      "lede": "It's tied to one specific person in your reading.",
+      "body": "Not every ending actually ends. Some simply go quiet, without ever being finished. Today's reading picked up on exactly that — an attachment that faded rather than closed, and it points to one specific person. The reading works through what's kept that connection lingering, then says plainly who it belongs to. Nothing vague, nothing left for you to guess at. If a name has been surfacing in the back of your mind lately, this might explain why.",
+      "inline": "If it is useful, |see who this points to|.",
+      "cta": "See who this points to",
+      "ctaTaxonomy": "REVEAL_PERSON",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:W D:P E:P F:P G:W H:P] 86w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "WARN",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 86,
+          "bodyOnlyWords": 77,
+          "paragraphs": 4,
+          "subjectChars": 30,
+          "preheaderChars": 49,
+          "concretePer100": 1.3,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 6.49,
+          "openingSentenceWords": 5,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "Not every ending actually ends. Some simply go quiet, without ever being finished.",
+        "Today's reading picked up on exactly that — an attachment that faded rather than closed, and it points to one specific person.",
+        "The reading works through what's kept that connection lingering, then says plainly who it belongs to. Nothing vague, nothing left for you to guess at.",
+        "If a name has been surfacing in the back of your mind lately, this might explain why."
+      ]
+    },
+    "attempts": 3,
+    "ms": 120727,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-gr1_em-1030-1",
+        "ms": 38781,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-gr1_em-1030-2",
+        "ms": 39882,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-gr1_em-1030-3",
+        "ms": 42052,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:53:40.621Z"
+  },
+  "kit_sacred|1100|manifesting": {
+    "esp": "kit_sacred",
+    "hhmm": "1100",
+    "dest": "manifesting",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "Someone Is Calling You In",
+      "kicker": "OPEN YOUR READING",
+      "lede": "Their focus already has a shape — and a name attached.",
+      "body": "Someone has begun holding you in mind with real intention. Not a passing thought — a focus, and it has a name behind it. That kind of focus rarely stays formless for long. A reading can trace it straight back to the person behind it — not a type, not a sign, but someone specific. There's no date attached and no countdown. What's there instead is who it is — the person whose attention has already turned toward you. If you'd rather know than keep guessing, that's what today's reading is for.",
+      "inline": "If it is useful, |open your reading|.",
+      "cta": "Open your reading",
+      "ctaTaxonomy": "OPEN_READING",
+      "ctaFallbackReason": "CTA_NOT_DERIVED",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:W F:P G:P H:P] 103w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "WARN",
+          "F": "PASS",
+          "G": "PASS",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 103,
+          "bodyOnlyWords": 92,
+          "paragraphs": 4,
+          "subjectChars": 25,
+          "preheaderChars": 54,
+          "concretePer100": 2.17,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 5.15,
+          "openingSentenceWords": 10,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "Someone has begun holding you in mind with real intention. Not a passing thought — a focus, and it has a name behind it.",
+        "That kind of focus rarely stays formless for long. A reading can trace it straight back to the person behind it — not a type, not a sign, but someone specific.",
+        "There's no date attached and no countdown. What's there instead is who it is — the person whose attention has already turned toward you. If you'd rather know than keep guessing, that's what today's reading is for."
+      ]
+    },
+    "attempts": 6,
+    "ms": 277702,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-kit_sacred-1100-1",
+        "ms": 55856,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-kit_sacred-1100-2",
+        "ms": 45472,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-kit_sacred-1100-3",
+        "ms": 29876,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-kit_sacred-1100-4",
+        "ms": 67135,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-kit_sacred-1100-5",
+        "ms": 40122,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-kit_sacred-1100-6",
+        "ms": 39219,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T01:58:18.324Z"
+  },
+  "gr2_divine|1130|futuresoulmate": {
+    "esp": "gr2_divine",
+    "hhmm": "1130",
+    "dest": "futuresoulmate",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "A message names who's dreaming of you",
+      "kicker": "YOUR SOULMATE READING",
+      "lede": "One detail inside is oddly specific — you'll know if it fits.",
+      "body": "Before you ever meet them, someone has already dreamed of you. Not metaphorically — the dream came first, and by most accounts, it hasn't stopped. Your reading describes what showed up in that dream: a small, specific detail, the kind you'd only recognise if it were actually true of you. It also names who's been doing the dreaming. Not a sign, not a type — an actual person, described the way you'd describe them if someone asked you to. You don't have to do anything with what's there except read it. The message stays exactly as it is until you open it.",
+      "inline": "If it is useful, |reveal who is dreaming of you|.",
+      "cta": "Reveal who is dreaming of you",
+      "ctaTaxonomy": "REVEAL_PERSON",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:W D:P E:P F:P G:P H:P] 114w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "WARN",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "PASS",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 114,
+          "bodyOnlyWords": 102,
+          "paragraphs": 4,
+          "subjectChars": 37,
+          "preheaderChars": 61,
+          "concretePer100": 0,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 6.13,
+          "openingSentenceWords": 11,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "Before you ever meet them, someone has already dreamed of you. Not metaphorically — the dream came first, and by most accounts, it hasn't stopped.",
+        "Your reading describes what showed up in that dream: a small, specific detail, the kind you'd only recognise if it were actually true of you.",
+        "It also names who's been doing the dreaming. Not a sign, not a type — an actual person, described the way you'd describe them if someone asked you to.",
+        "You don't have to do anything with what's there except read it. The message stays exactly as it is until you open it."
+      ]
+    },
+    "attempts": 4,
+    "ms": 179606,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-gr2_divine-1130-1",
+        "ms": 27782,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-gr2_divine-1130-2",
+        "ms": 44860,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-gr2_divine-1130-3",
+        "ms": 53592,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-gr2_divine-1130-4",
+        "ms": 53360,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T02:01:17.931Z"
+  },
+  "ml_divine|1230|dailyangelmessage": {
+    "esp": "ml_divine",
+    "hhmm": "1230",
+    "dest": "dailyangelmessage",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "Today's angel message is oddly specific",
+      "kicker": "REVEAL THE REASON FOR TODAY",
+      "lede": "It's shorter than you might expect, and easy to miss.",
+      "body": "Your guardian angel message isn't long. Most days it's a line or two — short enough to read before your tea finishes steeping. Today's version reads differently, though. Less general reassurance, more like it was aimed at one particular situation rather than a passing mood. There's no date attached, and no name. What's there instead is the reason behind something you've probably already noticed. That's the whole message — short, plain, and more specific than the usual ones.",
+      "inline": "If it is useful, |reveal the reason for today|.",
+      "cta": "Reveal the reason for today",
+      "ctaTaxonomy": "REVEAL_REASON",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:W H:P] 88w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 88,
+          "bodyOnlyWords": 78,
+          "paragraphs": 4,
+          "subjectChars": 39,
+          "preheaderChars": 53,
+          "concretePer100": 6.41,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 5.15,
+          "openingSentenceWords": 6,
+          "hasSpecificCount": true
+        }
+      },
+      "bodyParas": [
+        "Your guardian angel message isn't long. Most days it's a line or two — short enough to read before your tea finishes steeping.",
+        "Today's version reads differently, though. Less general reassurance, more like it was aimed at one particular situation rather than a passing mood.",
+        "There's no date attached, and no name. What's there instead is the reason behind something you've probably already noticed. That's the whole message — short, plain, and more specific than the usual ones."
+      ]
+    },
+    "attempts": 1,
+    "ms": 47729,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-ml_divine-1230-1",
+        "ms": 47724,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T02:02:05.661Z"
+  },
+  "gr3_readings|1600|past-lover-v3": {
+    "esp": "gr3_readings",
+    "hhmm": "1600",
+    "dest": "past-lover-v3",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "Someone from your past has one message",
+      "kicker": "SEE WHO THIS MESSAGE NAMES",
+      "lede": "It doesn't speak in generalities. It names someone specific.",
+      "body": "One message has come through, and it's tied to a specific person from your past — not a general reading, not a broad theme. Most readings speak in phrases you have to interpret for yourself. This one names someone. You'll likely know exactly who within the first few lines, and that kind of directness is rare. There's only the one message — nothing to pick, nothing to choose. Just a single reading, already written, waiting for you to read it in full. If a name comes to mind before you even open it, that's worth paying attention to.",
+      "inline": "If it is useful, |see who this message names|.",
+      "cta": "See who this message names",
+      "ctaTaxonomy": "REVEAL_PERSON",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:W D:P E:P F:P G:W H:P] 107w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "WARN",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 107,
+          "bodyOnlyWords": 98,
+          "paragraphs": 4,
+          "subjectChars": 38,
+          "preheaderChars": 60,
+          "concretePer100": 1.02,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 6.14,
+          "openingSentenceWords": 24,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "One message has come through, and it's tied to a specific person from your past — not a general reading, not a broad theme.",
+        "Most readings speak in phrases you have to interpret for yourself. This one names someone. You'll likely know exactly who within the first few lines, and that kind of directness is rare.",
+        "There's only the one message — nothing to pick, nothing to choose. Just a single reading, already written, waiting for you to read it in full.",
+        "If a name comes to mind before you even open it, that's worth paying attention to."
+      ]
+    },
+    "attempts": 1,
+    "ms": 40216,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-gr3_readings-1600-1",
+        "ms": 40212,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T02:02:45.878Z"
+  },
+  "resend_venuswindow|1700|messagenotsent": {
+    "esp": "resend_venuswindow",
+    "hhmm": "1700",
+    "dest": "messagenotsent",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "A message with your name on it, unsent",
+      "kicker": "REVEAL THE UNSENT MESSAGE",
+      "lede": "It names who almost pressed send.",
+      "body": "There's a message in this reading that never made it past a draft. It's addressed to you, and it names the person who wrote it — not a card, not a sign, an actual name. The line itself is short. What's harder to explain is why it stopped there, unsent, instead of reaching you. The reading lays out both the name and the message exactly as they were left. It doesn't explain the hesitation behind it — only you might recognise that part.",
+      "inline": "If it is useful, |reveal the unsent message|.",
+      "cta": "Reveal the unsent message",
+      "ctaTaxonomy": "REVEAL_MESSAGE",
+      "copyQaFallback": "B/REPETITION",
+      "copyQa": {
+        "version": "V3",
+        "ok": false,
+        "summary": "REGENERATE [A:P B:F C:P D:P E:P F:P G:W H:P] 89w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "FAIL",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 89,
+          "bodyOnlyWords": 83,
+          "paragraphs": 4,
+          "subjectChars": 38,
+          "preheaderChars": 33,
+          "concretePer100": 4.82,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 5.42,
+          "openingSentenceWords": 13,
+          "hasSpecificCount": true
+        }
+      },
+      "bodyParas": [
+        "There's a message in this reading that never made it past a draft.",
+        "It's addressed to you, and it names the person who wrote it — not a card, not a sign, an actual name.",
+        "The line itself is short. What's harder to explain is why it stopped there, unsent, instead of reaching you.",
+        "The reading lays out both the name and the message exactly as they were left. It doesn't explain the hesitation behind it — only you might recognise that part."
+      ]
+    },
+    "attempts": 6,
+    "ms": 273746,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_venuswindow-1700-1",
+        "ms": 41736,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_venuswindow-1700-2",
+        "ms": 46177,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_venuswindow-1700-3",
+        "ms": 58941,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_venuswindow-1700-4",
+        "ms": 51381,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_venuswindow-1700-5",
+        "ms": 43371,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_venuswindow-1700-6",
+        "ms": 32122,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T02:07:19.625Z"
+  },
+  "kit_divine|1800|themessage": {
+    "esp": "kit_divine",
+    "hhmm": "1800",
+    "dest": "themessage",
+    "class": "PROVEN",
+    "copy": {
+      "subject": "A Sentence That Was Never Finished",
+      "kicker": "READ WHAT WAS LEFT UNSAID",
+      "lede": "The pause is still there. So is the person it was meant for.",
+      "body": "Some things get almost said. You know the feeling — the breath taken before a sentence, then let go instead of used. A line, maybe only a few words, folded away instead of spoken. This reading picks up from that pause. It names the person those words were meant for — someone you already carry a name for, or one you haven't thought about in years. You don't have to guess who, or why, any longer. The message is still there. Read what was left unsaid.",
+      "inline": "If it is useful, |read what was left unsaid|.",
+      "cta": "Read what was left unsaid",
+      "ctaTaxonomy": "UNCLASSIFIED",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:P H:P] 99w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "PASS",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 99,
+          "bodyOnlyWords": 86,
+          "paragraphs": 4,
+          "subjectChars": 34,
+          "preheaderChars": 60,
+          "concretePer100": 5.81,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 7.15,
+          "openingSentenceWords": 5,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "Some things get almost said.",
+        "You know the feeling — the breath taken before a sentence, then let go instead of used. A line, maybe only a few words, folded away instead of spoken.",
+        "This reading picks up from that pause. It names the person those words were meant for — someone you already carry a name for, or one you haven't thought about in years.",
+        "You don't have to guess who, or why, any longer. The message is still there. Read what was left unsaid."
+      ]
+    },
+    "attempts": 1,
+    "ms": 46437,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-kit_divine-1800-1",
+        "ms": 46432,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T02:08:06.063Z"
+  },
+  "resend_divinepathway|1830|angel-message": {
+    "esp": "resend_divinepathway",
+    "hhmm": "1830",
+    "dest": "angel-message",
+    "class": "OPTIN",
+    "copy": {
+      "subject": "Someone named this message for you",
+      "kicker": "YOUR FREE READING",
+      "lede": "It was ready before you opened this email.",
+      "body": "Before you opened this, a message had already been prepared for you. Not a horoscope, not a generic forecast — a short passage written to read as if it were meant only for you, sitting on a single page and waiting. Most people scroll past this kind of thing. But the line at the centre of it tends to land in a way that's harder to shrug off than expected. It doesn't ask much of you — an email address is enough, and the page opens straight away. You won't know which words are waiting for you until you see them for yourself.",
+      "inline": "If it is useful, |see the message waiting for you|.",
+      "cta": "See the message waiting for you",
+      "ctaTaxonomy": "SEE_WHAT_IS_WAITING",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:P H:P] 111w/5p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "PASS",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 111,
+          "bodyOnlyWords": 103,
+          "paragraphs": 5,
+          "subjectChars": 34,
+          "preheaderChars": 42,
+          "concretePer100": 3.88,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 7.36,
+          "openingSentenceWords": 12,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "Before you opened this, a message had already been prepared for you.",
+        "Not a horoscope, not a generic forecast — a short passage written to read as if it were meant only for you, sitting on a single page and waiting.",
+        "Most people scroll past this kind of thing. But the line at the centre of it tends to land in a way that's harder to shrug off than expected.",
+        "It doesn't ask much of you — an email address is enough, and the page opens straight away. You won't know which words are waiting for you until you see them for yourself."
+      ]
+    },
+    "attempts": 1,
+    "ms": 56692,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_divinepathway-1830-1",
+        "ms": 56687,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T02:09:02.756Z"
+  },
+  "ml_mystic|1900|mysticmoon": {
+    "esp": "ml_mystic",
+    "hhmm": "1900",
+    "dest": "mysticmoon",
+    "class": "CONTENDER",
+    "copy": {
+      "subject": "Somebody keeps circling back to you",
+      "kicker": "REVEAL WHO'S CIRCLING BACK",
+      "lede": "The identity is only half of what surfaces.",
+      "body": "Somebody has been circling back to a thought about you, and it isn't the kind of thought that fades on its own. Your reading points to a specific person behind that pull, not a general sense of someone out there — the name attached, along with a shift in timing that explains why this is surfacing now rather than any other week. Most people stop once they know who it is. The part worth staying for is what changed to bring this thread forward again, and what that means for what comes next. It's a short read, and it's specific enough that you can check it against what you already know.",
+      "inline": "If it is useful, |reveal who's circling back|.",
+      "cta": "Reveal who's circling back",
+      "ctaTaxonomy": "REVEAL_PERSON",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:W H:P] 119w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 119,
+          "bodyOnlyWords": 111,
+          "paragraphs": 4,
+          "subjectChars": 35,
+          "preheaderChars": 43,
+          "concretePer100": 2.7,
+          "abstractPer100": 0.9,
+          "sentenceLengthSD": 11.28,
+          "openingSentenceWords": 22,
+          "hasSpecificCount": true
+        }
+      },
+      "bodyParas": [
+        "Somebody has been circling back to a thought about you, and it isn't the kind of thought that fades on its own.",
+        "Your reading points to a specific person behind that pull, not a general sense of someone out there — the name attached, along with a shift in timing that explains why this is surfacing now rather than any other week.",
+        "Most people stop once they know who it is. The part worth staying for is what changed to bring this thread forward again, and what that means for what comes next.",
+        "It's a short read, and it's specific enough that you can check it against what you already know."
+      ]
+    },
+    "attempts": 1,
+    "ms": 45034,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-ml_mystic-1900-1",
+        "ms": 45029,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T02:09:47.791Z"
+  },
+  "resend_divinereadings|1930|loveturningpoint": {
+    "esp": "resend_divinereadings",
+    "hhmm": "1930",
+    "dest": "loveturningpoint",
+    "class": "CONTENDER",
+    "copy": {
+      "subject": "A turning point just arrived for you",
+      "kicker": "YOUR TURNING POINT",
+      "lede": "It centres on one person, not a general shift.",
+      "body": "Your love story reached a turning point this week. Not a general shift, not a vague sense that something's different — a specific person, and a window when things actually start to move. You may already recognise the shape of it. A name that keeps resurfacing without reason. A conversation you keep replaying long after it ended. A feeling that something is close, even though nothing obvious has happened yet. This reading names that person, and it points to the stretch of time ahead where the turning point actually lands. What happens after that stays open until you read it.",
+      "inline": "If it is useful, |see who this turning point names|.",
+      "cta": "See who this turning point names",
+      "ctaTaxonomy": "REVEAL_PERSON",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:P H:P] 109w/3p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "PASS",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 109,
+          "bodyOnlyWords": 100,
+          "paragraphs": 3,
+          "subjectChars": 36,
+          "preheaderChars": 46,
+          "concretePer100": 3,
+          "abstractPer100": 1,
+          "sentenceLengthSD": 6.21,
+          "openingSentenceWords": 9,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "Your love story reached a turning point this week. Not a general shift, not a vague sense that something's different — a specific person, and a window when things actually start to move.",
+        "You may already recognise the shape of it. A name that keeps resurfacing without reason. A conversation you keep replaying long after it ended. A feeling that something is close, even though nothing obvious has happened yet.",
+        "This reading names that person, and it points to the stretch of time ahead where the turning point actually lands. What happens after that stays open until you read it."
+      ]
+    },
+    "attempts": 4,
+    "ms": 173284,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_divinereadings-1930-1",
+        "ms": 56307,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_divinereadings-1930-2",
+        "ms": 40385,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_divinereadings-1930-3",
+        "ms": 35100,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_divinereadings-1930-4",
+        "ms": 41470,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T02:12:41.075Z"
+  },
+  "ml_divine|2030|spoptin-stars": {
+    "esp": "ml_divine",
+    "hhmm": "2030",
+    "dest": "spoptin-stars",
+    "class": "OPTIN",
+    "copy": {
+      "subject": "A Card Keeps Turning Face Up 🃏",
+      "kicker": "SEE THE CARD WAITING FOR YOU",
+      "lede": "It's not the card most people expect to see first.",
+      "body": "One card keeps turning up face first before anyone even asks for it — same spot, near the top of the deck, in reading after reading today. It's an odd one to lead with. Not the comfort card. Not the warning card. The kind that just sits there, plain, and waits for you to notice it. The Oracle of the Stars won't say which one until you pick it yourself — that part stays yours to do, not something read out to you first. It takes about as long as choosing a table at a café. You look, you decide, you turn it over.",
+      "inline": "If it is useful, |see the card waiting for you|.",
+      "cta": "See the card waiting for you",
+      "ctaTaxonomy": "REVEAL_CARD",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:W H:P] 114w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 114,
+          "bodyOnlyWords": 104,
+          "paragraphs": 4,
+          "subjectChars": 31,
+          "preheaderChars": 50,
+          "concretePer100": 4.81,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 9.61,
+          "openingSentenceWords": 27,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "One card keeps turning up face first before anyone even asks for it — same spot, near the top of the deck, in reading after reading today.",
+        "It's an odd one to lead with. Not the comfort card. Not the warning card. The kind that just sits there, plain, and waits for you to notice it.",
+        "The Oracle of the Stars won't say which one until you pick it yourself — that part stays yours to do, not something read out to you first.",
+        "It takes about as long as choosing a table at a café. You look, you decide, you turn it over."
+      ]
+    },
+    "attempts": 1,
+    "ms": 43953,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-ml_divine-2030-1",
+        "ms": 43948,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T02:13:25.029Z"
+  },
+  "resend_sacred|2045|angel-message": {
+    "esp": "resend_sacred",
+    "hhmm": "2045",
+    "dest": "angel-message",
+    "class": "OPTIN",
+    "copy": {
+      "subject": "Someone left something waiting for you",
+      "kicker": "YOUR FREE READING",
+      "lede": "It's still there, unopened.",
+      "body": "Someone left something behind, and it was meant for you. A message came through — not a date, not a name, just a line meant for one reader. It's been sitting there since it arrived, waiting for the one person it was written for. Most messages like this get glanced at and forgotten. This one hasn't been opened yet, and until it is, the words stay exactly where they landed. Open it, and you'll see whether it says what you already suspect, or something you hadn't considered at all.",
+      "inline": "If it is useful, |open the message waiting for you|.",
+      "cta": "Open the message waiting for you",
+      "ctaTaxonomy": "SEE_WHAT_IS_WAITING",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:P H:P] 93w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "PASS",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 93,
+          "bodyOnlyWords": 89,
+          "paragraphs": 4,
+          "subjectChars": 38,
+          "preheaderChars": 27,
+          "concretePer100": 4.49,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 4.26,
+          "openingSentenceWords": 10,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "Someone left something behind, and it was meant for you.",
+        "A message came through — not a date, not a name, just a line meant for one reader. It's been sitting there since it arrived, waiting for the one person it was written for.",
+        "Most messages like this get glanced at and forgotten. This one hasn't been opened yet, and until it is, the words stay exactly where they landed.",
+        "Open it, and you'll see whether it says what you already suspect, or something you hadn't considered at all."
+      ]
+    },
+    "attempts": 1,
+    "ms": 34955,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-resend_sacred-2045-1",
+        "ms": 34950,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T02:13:59.985Z"
+  },
+  "ml_mystic|2145|spoptin-stars": {
+    "esp": "ml_mystic",
+    "hhmm": "2145",
+    "dest": "spoptin-stars",
+    "class": "OPTIN",
+    "copy": {
+      "subject": "One card, and it isn't like the others",
+      "kicker": "YOUR FREE READING",
+      "lede": "The reading changes depending on which one you pick.",
+      "body": "There are several cards on the table, and only one is meant for you today. That's not sentiment — it's how this particular reading works. You choose, not the deck. The card you pick decides which message you get to read, and it's different from the one your friend would draw, or the one you'd draw tomorrow. Some people scroll past this kind of thing. Others stop, because the choosing itself feels oddly specific — like picking the right key before you've seen the lock. Your card is still sitting there, unchosen.",
+      "inline": "If it is useful, |choose the card meant for you|.",
+      "cta": "Choose the card meant for you",
+      "ctaTaxonomy": "CHOOSE_CARD",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:W H:P] 101w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "WARN",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 101,
+          "bodyOnlyWords": 92,
+          "paragraphs": 4,
+          "subjectChars": 38,
+          "preheaderChars": 52,
+          "concretePer100": 6.52,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 7.99,
+          "openingSentenceWords": 15,
+          "hasSpecificCount": false
+        }
+      },
+      "bodyParas": [
+        "There are several cards on the table, and only one is meant for you today.",
+        "That's not sentiment — it's how this particular reading works. You choose, not the deck. The card you pick decides which message you get to read, and it's different from the one your friend would draw, or the one you'd draw tomorrow.",
+        "Some people scroll past this kind of thing. Others stop, because the choosing itself feels oddly specific — like picking the right key before you've seen the lock. Your card is still sitting there, unchosen."
+      ]
+    },
+    "attempts": 1,
+    "ms": 36585,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-ml_mystic-2145-1",
+        "ms": 36579,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T02:14:36.571Z"
+  },
+  "ml_mystic|2300|angel-message": {
+    "esp": "ml_mystic",
+    "hhmm": "2300",
+    "dest": "angel-message",
+    "class": "OPTIN",
+    "copy": {
+      "subject": "Somebody left something you haven't opened",
+      "kicker": "YOUR FREE READING",
+      "lede": "It's been waiting longer than you'd guess.",
+      "body": "Somebody left something you haven't opened yet. It's been sitting there since before you thought to look for it — not a horoscope, not a general forecast, but a message addressed directly to you. Most of what lands in an inbox is written for everybody at once. This wasn't. It waited instead, the way a letter waits on a hall table until someone finally notices it. What it actually says stays closed until you open it. No one can describe it accurately for you, and no version of it exists anywhere else.",
+      "inline": "If it is useful, |open the message waiting for you|.",
+      "cta": "Open the message waiting for you",
+      "ctaTaxonomy": "SEE_WHAT_IS_WAITING",
+      "copyQa": {
+        "version": "V3",
+        "ok": true,
+        "summary": "PASS [A:P B:P C:P D:P E:P F:P G:P H:P] 99w/4p",
+        "criteria": {
+          "A": "PASS",
+          "B": "PASS",
+          "C": "PASS",
+          "D": "PASS",
+          "E": "PASS",
+          "F": "PASS",
+          "G": "PASS",
+          "H": "PASS"
+        },
+        "metrics": {
+          "bodyWords": 99,
+          "bodyOnlyWords": 92,
+          "paragraphs": 4,
+          "subjectChars": 42,
+          "preheaderChars": 42,
+          "concretePer100": 2.17,
+          "abstractPer100": 0,
+          "sentenceLengthSD": 8.03,
+          "openingSentenceWords": 7,
+          "hasSpecificCount": true
+        }
+      },
+      "bodyParas": [
+        "Somebody left something you haven't opened yet.",
+        "It's been sitting there since before you thought to look for it — not a horoscope, not a general forecast, but a message addressed directly to you.",
+        "Most of what lands in an inbox is written for everybody at once. This wasn't. It waited instead, the way a letter waits on a hall table until someone finally notices it.",
+        "What it actually says stays closed until you open it. No one can describe it accurately for you, and no version of it exists anywhere else."
+      ]
+    },
+    "attempts": 3,
+    "ms": 135745,
+    "calls": [
+      {
+        "requestId": "emailops-daily-2026-09-07-ml_mystic-2300-1",
+        "ms": 49427,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-ml_mystic-2300-2",
+        "ms": 45261,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      },
+      {
+        "requestId": "emailops-daily-2026-09-07-ml_mystic-2300-3",
+        "ms": 41043,
+        "provider": "claude-code",
+        "model": "claude-sonnet-5",
+        "error": null
+      }
+    ],
+    "generated_at": "2026-09-05T02:16:52.317Z"
+  }
+}

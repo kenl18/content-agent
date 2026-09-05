@@ -302,7 +302,9 @@ open to new values without a contract change (see "Open vocabulary fields" above
 |---|---|
 | `VALIDATION_ERROR` | The incoming request failed schema validation (including a missing/malformed `businessModel` or `primaryObjective`). |
 | `UNKNOWN_CONTENT_TYPE` | `contentType` does not resolve to any registered Template during Template Selection. |
-| `PROVIDER_ERROR` | The model provider call itself failed (network, auth, rate limit, provider-side error). |
+| `PROVIDER_ERROR` | The model provider call itself failed (network, transient provider-side error, timeout, unclassified failure). Callers may retry after a short pause. |
+| `CLAUDE_SUBSCRIPTION_LIMIT` | The Claude Code subscription provider ([ADR-0017](decisions/0017-claude-code-subscription-provider.md)) hit the subscription usage limit. `details.classification` is `CLAUDE_SUBSCRIPTION_LIMIT`; `details.resetsAt` (ISO) is present when the CLI reported a reset time. Callers must stop, preserve state, and retry later — never on a paid API path. |
+| `CLAUDE_AUTH_UNAVAILABLE` | The Claude Code subscription provider has no usable subscription login (logged out, expired, or a non-subscription auth method). Fail closed: an operator must re-authenticate; there is no fallback. |
 | `PROVIDER_OUTPUT_ERROR` | The model returned output that could not be parsed as structured data. |
 | `RESPONSE_VALIDATION_ERROR` | Parsed model output does not satisfy the resolved `schemaId`'s schema. |
 | `INTERNAL_ERROR` | Any unexpected failure not covered above. |

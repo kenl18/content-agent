@@ -33,6 +33,23 @@ describe("buildInstructions", () => {
     expect(instructions.user).toContain("required");
   });
 
+  it("emits an outputSchema mirroring the requested sections (ADR-0017)", () => {
+    const instructions = buildInstructions(request, template);
+    expect(instructions.outputSchema).toEqual({
+      type: "object",
+      properties: {
+        headline: { type: "string", minLength: 1, description: "A short, benefit-driven headline" },
+        subheadline: { type: "string", minLength: 1, description: "One supporting sentence" }
+      },
+      required: ["headline", "subheadline"],
+      additionalProperties: false
+    });
+    const promo = contentRequestSchema.parse(validPromoEmailRequest());
+    const promoInstructions = buildInstructions(promo, selectTemplate(promo.contentType)!);
+    expect(promoInstructions.outputSchema?.required).toEqual(["subjectLine", "previewText", "body", "ctaLabel"]);
+    expect(Object.keys(promoInstructions.outputSchema?.properties ?? {})).toContain("postscript");
+  });
+
   it("instructs the model to respond with JSON only", () => {
     const instructions = buildInstructions(request, template);
     expect(instructions.system.toLowerCase()).toContain("json");
