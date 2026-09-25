@@ -15,21 +15,37 @@ export interface ModelInstructions {
   outputSchema?: JsonObjectSchema;
 }
 
+/**
+ * A JSON Schema object node. Section properties are strings; a provider-boundary schema may add
+ * internal non-string properties (e.g. subject candidates, ADR-0018) that the application strips
+ * before Response Validation.
+ */
 export interface JsonObjectSchema {
   type: "object";
-  properties: Record<string, { type: "string"; minLength?: number; description?: string }>;
+  properties: Record<string, JsonSchemaNode>;
   required: string[];
   additionalProperties: false;
 }
+
+export type JsonSchemaNode = { type: string; [key: string]: unknown };
 
 export interface RawModelOutput {
   text: string;
 }
 
+/**
+ * Per-call overrides a caller may pass (ADR-0018 §13). A provider honours what it can and
+ * ignores the rest: `timeoutMs` never extends the provider's own limit, only shortens it.
+ */
+export interface GenerateOptions {
+  timeoutMs?: number;
+  effort?: "low" | "medium" | "high" | "xhigh" | "max";
+}
+
 export interface ModelProvider {
   readonly name: string;
   readonly model: string;
-  generate(instructions: ModelInstructions): Promise<RawModelOutput>;
+  generate(instructions: ModelInstructions, options?: GenerateOptions): Promise<RawModelOutput>;
 }
 
 /**

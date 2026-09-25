@@ -4,6 +4,7 @@ import { homedir, tmpdir } from "node:os";
 import { join } from "node:path";
 import {
   ProviderError,
+  type GenerateOptions,
   type ModelInstructions,
   type ModelProvider,
   type ProviderFailureClass,
@@ -315,7 +316,7 @@ export class ClaudeCodeProvider implements ModelProvider {
     return status;
   }
 
-  buildArgs(systemPromptFile: string, instructions: ModelInstructions): string[] {
+  buildArgs(systemPromptFile: string, instructions: ModelInstructions, options: GenerateOptions = {}): string[] {
     const args = [
       "-p",
       "--output-format",
@@ -323,7 +324,7 @@ export class ClaudeCodeProvider implements ModelProvider {
       "--model",
       this.model,
       "--effort",
-      this.effort,
+      options.effort ?? this.effort,
       // No tools, no persisted session, no project/local settings: a pure text generation.
       "--tools",
       "",
@@ -337,21 +338,23 @@ export class ClaudeCodeProvider implements ModelProvider {
     return args;
   }
 
-  async generate(instructions: ModelInstructions): Promise<RawModelOutput> {
+  async generate(instructions: ModelInstructions, options: GenerateOptions = {}): Promise<RawModelOutput> {
     if (this.verifyAuth) await this.ensureSubscriptionAuth();
     mkdirSync(this.workingDirectory, { recursive: true });
     const scratch = mkdtempSync(join(this.workingDirectory, "gen-"));
     const systemPromptFile = join(scratch, "system-prompt.txt");
+    // A caller's per-call budget can only shorten the provider's own limit, never extend it.
+    const timeoutMs = options.timeoutMs && options.timeoutMs > 0 ? Math.min(this.timeoutMs, options.timeoutMs) : this.timeoutMs;
     let run: ClaudeCodeProcessResult;
     try {
       writeFileSync(systemPromptFile, instructions.system, "utf8");
       run = await this.runner({
         file: this.binaryPath,
-        args: this.buildArgs(systemPromptFile, instructions),
+        args: this.buildArgs(systemPromptFile, instructions, options),
         stdin: instructions.user,
         env: this.env,
         cwd: this.workingDirectory,
-        timeoutMs: this.timeoutMs
+        timeoutMs
       });
     } finally {
       rmSync(scratch, { recursive: true, force: true });
@@ -364,8 +367,8 @@ export class ClaudeCodeProvider implements ModelProvider {
       );
     }
     if (run.timedOut) {
-      throw new ProviderError(`Claude Code generation timed out after ${this.timeoutMs}ms.`, {
-        details: { timeoutMs: this.timeoutMs }
+      throw new ProviderError(`Claude Code generation timed out after ${timeoutMs}ms.`, {
+        details: { timeoutMs }
       });
     }
 

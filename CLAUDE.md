@@ -65,7 +65,8 @@ belongs to a future, separate Analytics/Intelligence Service.
 
 Do not add, even incidentally, in service of some other task:
 
-- Database or any persistence layer
+- Database or any persistence layer (the one owner-approved exception: the flat-file concept
+  diversity ledger of ADR-0018 — labels only, no bodies, no database)
 - RAG or vector storage
 - Analytics or content performance learning
 - SEO research or keyword APIs
@@ -141,6 +142,12 @@ Strategy Layer structure (`TemplateStrategy`; only `modelGuidance` reaches the m
 template registry holds the `landing-page-hero` reference template plus the first production
 template, `promotional-email` (Strategy Layer authored in
 `docs/templates/promotional-email.md` — keep doc and registry in sync when editing either).
+Promotional emails run through the Copy System V4 diversity layer (`src/diversity/`,
+[ADR-0018](docs/decisions/0018-copy-system-v4-diversity-layer.md)): plan → V4 brief → provider →
+in-loop review with corrective retries → ledger. Persona voice contracts live in
+`docs/templates/personas.md` + `src/templates/persona-registry.ts` (keep in sync). Never weaken
+the caller's guards from here; never turn the ledger into automatic performance weighting
+without an owner GO.
 Further templates (Homepage family, Soulmate Message funnel contentTypes) are designed in
 `docs/templates/` and `docs/validation/` but not implemented — scope them against an actual
 consumer request when asked, never speculatively.

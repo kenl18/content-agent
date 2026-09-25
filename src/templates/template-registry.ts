@@ -126,6 +126,13 @@ const templateRegistry = new Map<string, Template>([
           "email; rationale = short prose explaining the key choices; changesFromReference, " +
           "riskFlags, and testHypotheses = one item per line. testHypotheses must use " +
           "correlational language ('X may correlate with Y — test Z'), never causal claims.",
+        // ADR-0018 (owner GO 2026-09-05): promotional emails are planned by the diversity layer.
+        // modelGuidance above remains the Strategy Layer of record; the V4 layout restates its
+        // rules compactly and adds the plan (see src/generation/build-instructions-v4.ts).
+        diversity: {
+          enabled: true,
+          note: "Copy System V4 — length families, architecture library, concept ledger, persona contracts, reviewed retries"
+        },
         modeGuidance: {
           refresh:
             "REFRESH mode: a proven historical email is supplied as reference content. Never " +

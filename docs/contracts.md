@@ -239,6 +239,15 @@ open to new values without a contract change (see "Open vocabulary fields" above
 - No field is inferred from any other field. A missing required field — including
   `businessModel` or `primaryObjective` — is a validation error, not a default.
 
+### Copy System V4 constraint and context fields (ADR-0018)
+
+`constraints` additionally accepts `minWords`, `maxWords` (guidance), `hardMinWords`, `hardMaxWords`
+(the caller's acceptance band, counted over preview text + body), `minParagraphs` and
+`maxParagraphs`. When the hard fields are absent the diversity layer reads the band from the
+caller's strategy text; when neither is present no hard band applies. `context.diversity` may
+name a `lengthFamily`, `architecture` or `angle` to force; an ineligible value is ignored and
+noted in `metadata.copyPlan.eligibility.notes`.
+
 ## Success response contract: `ContentResponse`
 
 ```jsonc
@@ -268,6 +277,15 @@ open to new values without a contract change (see "Open vocabulary fields" above
   }
 }
 ```
+
+### `metadata.copyPlan` (ADR-0018, promotional emails)
+
+Present on every response the diversity layer produced: `version` ("v4"), `account`, `persona`,
+`personaStatus`, `destination`, `lengthFamily`, `band`, `architecture`, `angle`, `hookFamily`,
+`emotionalEngine`, `promiseType`, `ctaFamily`, `subjectStructure`, `words`, `paragraphs`,
+`generations`, `replanned`, `subjectChosenFrom`, `qa` (`ok`, `findings`, `ticScore`) and
+`eligibility`. Callers may persist it beside the send to join concept labels to delivery and
+revenue later. It is informational; the content fields are unchanged.
 
 ### Response validation rules (V1)
 

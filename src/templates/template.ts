@@ -35,6 +35,15 @@ export interface TemplateStrategy {
     refresh?: string;
     variant?: string;
   };
+  /**
+   * Copy System V4 (ADR-0018): when enabled, requests for this template are planned by the
+   * diversity layer (length family, architecture, angle, persona contract, subject ranking,
+   * reviewed retries) instead of the single V1 instruction layout.
+   */
+  diversity?: {
+    enabled: boolean;
+    note?: string;
+  };
 }
 
 export interface Template {

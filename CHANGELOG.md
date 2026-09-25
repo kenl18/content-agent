@@ -2,6 +2,17 @@
 
 ## Unreleased
 
+- **Copy System V4 — controlled diversity in production (ADR-0018, owner GO 2026-09-05).** New
+  `src/diversity/` layer for promotional emails: length families, an architecture library,
+  concept-level angle families gated by the destination promise contract, a per-account concept
+  ledger, persona voice contracts (`docs/templates/personas.md`), subject/preheader candidate
+  ranking, a fingerprint budget for the fourteen machine-copy constructions the audit measured,
+  in-loop draft review with corrective feedback and a fresh angle after two failed corrections,
+  destination content packs, and `metadata.copyPlan` on every response. Constraints gain
+  `minWords`/`maxWords`/`hardMinWords`/`hardMaxWords`/`minParagraphs`/`maxParagraphs`;
+  `context.diversity` can force a family/architecture/angle when eligible. V3 hard guards are
+  untouched and remain the caller's authority.
+
 - **Claude Code subscription provider (ADR-0017, owner GO 2026-09-05).** New
   `ClaudeCodeProvider` / `createClaudeCodeProvider()` generates through the local Claude Code CLI
   (`claude -p --output-format json --json-schema ...`) under the machine's Claude Max login:

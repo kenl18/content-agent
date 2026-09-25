@@ -166,3 +166,18 @@ fields only.
 
 Campaign-to-campaign variation is *entirely* in `context`, `targetAudience`, `tone`, and
 `constraints` — the template and schema stay fixed.
+
+
+## Copy System V4 — controlled diversity (ADR-0018, owner GO 2026-09-05)
+
+Promotional emails are now planned by the diversity layer before Instruction Generation. The
+Strategy Layer above remains the standard of record; the V4 layout restates its rules compactly
+and adds, per send: a **length family** (short note 55–85 · standard 90–130 · story 130–180 ·
+long-form 180–230 words, clipped to the caller's hard band; length follows the idea), one of ten
+**architectures** (see `src/diversity/architectures.ts`), one **angle family** the destination's
+promise contract permits (`src/diversity/angles.ts`), an **emotional engine** not used in the
+account's last three sends, a **persona voice contract** ([personas.md](personas.md)), a subject
+**structure target** with candidate ranking, and a **style budget** for the fourteen measured
+machine-copy constructions. Drafts are reviewed in-loop and corrected with the exact finding;
+after two failed corrections a different angle and architecture is assigned. Every send leaves a
+concept label in the ledger so the account never repeats a pitch because the wording changed.

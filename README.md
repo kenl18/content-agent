@@ -136,6 +136,22 @@ Two concrete providers exist behind `ModelProvider` (no routing or fallback betw
 
 Tests use injected fakes for both and make no network calls and spawn no processes.
 
+## Copy System V4 (ADR-0018)
+
+Promotional emails are generated with controlled diversity built into normal production: four
+length families, ten architectures, sixteen concept-level angle families gated by the
+destination's promise contract, persona voice contracts, subject candidate ranking, a measured
+style budget for machine-copy tells, reviewed retries that feed the exact rejection back, and a
+per-account concept ledger (`data/copy-ledger/`, runtime data). Destination content packs live
+in `data/destination-content/` (`npx tsx scripts/build-destination-content.mts`). Seed the ledger
+from a caller's recent plan files with `npx tsx scripts/seed-copy-ledger.mts <plans...>`. Runtime
+switches: `CONTENT_AGENT_LEDGER_DIR` (ledger location; point QA runs at a copy so unsent copy never
+counts as used), `CONTENT_AGENT_V4_EFFORT` (generation effort, default `medium` — measured ~53 s per
+generation against 113–153 s at `high`). QA harnesses: `scripts/v4-sample.mts`,
+`scripts/v4-persona-sample.mts`, `scripts/v4-latency-probe.mts`. See
+[docs/decisions/0018-copy-system-v4-diversity-layer.md](docs/decisions/0018-copy-system-v4-diversity-layer.md)
+and [docs/templates/personas.md](docs/templates/personas.md).
+
 ## Stack
 
 - TypeScript / Node.js

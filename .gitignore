@@ -2,3 +2,6 @@ node_modules/
 dist/
 .env
 *.log
+
+# ADR-0018 runtime data: the concept diversity ledger is per-machine state, never committed.
+data/copy-ledger/

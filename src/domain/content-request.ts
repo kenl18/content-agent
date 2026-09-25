@@ -12,6 +12,15 @@ export const contentSectionSchema = z.object({
 export const contentConstraintsSchema = z.object({
   maxLength: z.number().positive().optional(),
   minLength: z.number().nonnegative().optional(),
+  // ADR-0018: word-count guidance and the caller's HARD acceptance band (words counted over
+  // preheader + body, as EmailOps measures). Without hardMinWords/hardMaxWords the diversity
+  // layer reads the band from the caller's strategy text; without either, no hard band applies.
+  minWords: z.number().nonnegative().optional(),
+  maxWords: z.number().positive().optional(),
+  hardMinWords: z.number().nonnegative().optional(),
+  hardMaxWords: z.number().positive().optional(),
+  minParagraphs: z.number().positive().optional(),
+  maxParagraphs: z.number().positive().optional(),
   forbiddenPhrases: z.array(z.string()).optional(),
   requiredPhrases: z.array(z.string()).optional(),
   // Semantic prohibitions ("guaranteed results"), enforced via instructions — distinct from

@@ -121,7 +121,8 @@ structured error — never a partial or ambiguous shape.
 | `domain` | Request/response/objective types, Zod schemas, error types, schema registry | providers, transport |
 | `templates` | Template registry + Template Selection logic | providers, transport |
 | `validation` | Applies domain schemas to raw input/output | providers, transport |
-| `generation` | Builds model instructions from a validated request + resolved template | providers, transport |
+| `generation` | Builds model instructions from a validated request + resolved template (V1 layout; V4 layout in `build-instructions-v4.ts` when a template enables the diversity layer) | providers, transport |
+| `diversity` | Copy System V4 (ADR-0018): strategy parser, length families, architecture library, angle families, planner, subject ranking, draft review with corrective feedback, fingerprint budget, claim pre-checks, destination content packs, concept ledger | providers, transport |
 | `providers` | `ModelProvider` interface + concrete implementations (Anthropic SDK, ADR-0001; Claude Code CLI, ADR-0017). No routing or fallback between them. | transport |
 | `application` | Orchestrates the six-step pipeline | transport |
 | `transport` | Adapts an external interface (HTTP, CLI, direct call) to the service | — (leaf) |
@@ -281,6 +282,14 @@ content-service/
 │   │   └── validate-response.ts
 │   ├── generation/
 │   │   └── build-instructions.ts     # (request, template) -> model instructions (pure function)
+│   ├── diversity/                    # Copy System V4 (ADR-0018)
+│   │   ├── planner.ts                # length family / architecture / angle / engine / subject structure
+│   │   ├── architectures.ts, angles.ts, length-families.ts
+│   │   ├── qa.ts, tics.ts, claims.ts # in-loop review, fingerprint budget, claim pre-checks
+│   │   ├── subjects.ts               # subject/preheader candidate ranking
+│   │   ├── ledger.ts                 # concept diversity ledger (JSONL per account)
+│   │   ├── strategy-parser.ts        # reads the caller's embedded facts, fails closed
+│   │   └── destination-content.ts    # destination content packs
 │   ├── providers/
 │   │   ├── model-provider.ts         # ModelProvider interface
 │   │   ├── anthropic-provider.ts     # V1 concrete implementation (ADR-0001)
