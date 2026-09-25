@@ -1,0 +1,65 @@
+{
+  "slug": "am-hub",
+  "label": "AM Hub (astrologymanifest.com)",
+  "url": "https://astrologymanifest.com/",
+  "finalUrl": "https://astrologymanifest.com/",
+  "httpStatus": 200,
+  "fetchedAt": "2026-09-05T07:05:46.836Z",
+  "contract": {
+    "interaction_type": "read_only",
+    "primary_payoff": "Astrology Manifest",
+    "secondary_payoff": "Astrology Manifest",
+    "allowed_claims": [
+      "number",
+      "card",
+      "reason"
+    ]
+  },
+  "page": {
+    "title": "Astrology Manifest — Read what you're ready to receive.",
+    "headings": [
+      "Read what you're ready to receive.",
+      "Readings for the money story you carry.",
+      "One card, one sign, one number.",
+      "The wall has a name. Here are the six.",
+      "What you keep asking for, and quietly turn away.",
+      "Longer reads on money, meaning and timing.",
+      "What you'll accept is also a money story.",
+      "Today"
+    ],
+    "buttons": [
+      "Start a reading",
+      "The Receiving Reading three sealed envelopes · 2 minutes",
+      "The Journal — all longer reads",
+      "About who writes this, and what we never claim",
+      "Why money leaves the long read · 8 minutes",
+      "The Receiving Reading reading · 1 envelope",
+      "The Block Reading reading · 3 cards",
+      "Help Ready to help — and you keep calling it a favour"
+    ],
+    "paragraphs": [
+      "Astrology Manifest Receiving The Block Today Why money leaves About Start a reading",
+      "Money, Abundance & Manifestation Love & What You’ll Accept Stars, Numbers & Timing The Journal — all longer reads From Love to Worth",
+      "Begin here · The Receiving Reading · 2 min",
+      "Three sealed envelopes. One holds what you keep asking for.",
+      "Tap the one your hand goes to first · free · no sign-up",
+      "Interactive readings and clear writing on money, abundance and timing — through tarot, the stars and your numbers. About the envelopes ›",
+      "The Block Reading three cards: the pattern you inherited, the block you're in, what opens it Today one card, one sign, one number Why money leaves the long read · 8 minutes",
+      "what the Receiving Reading is, and what it can open onto",
+      "TODAY · today The Moon · your sign today · number of the day 3",
+      "Every reading here ends at the same place: what you believe you're owed, and what you're ready to accept.",
+      "The Receiving Reading reading · 1 envelope",
+      "Why money leaves as fast as it arrives journal · 8 min",
+      "The Vault — holding on so hard the holding owns you reading · the block",
+      "Ready to receive money — and filing it under luck reading · the envelope"
+    ],
+    "mechanics": {
+      "hasEmailInput": false,
+      "cardChoice": false,
+      "stepMarker": null,
+      "countdown": false,
+      "images": 1
+    }
+  },
+  "sampleConcepts": []
+}

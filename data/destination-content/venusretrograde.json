@@ -1,0 +1,40 @@
+{
+  "slug": "venusretrograde",
+  "label": "Venus Retrograde",
+  "url": "https://www.astrologymanifest.com/venus-retrograde-signal",
+  "finalUrl": "https://www.astrologymanifest.com/venus-retrograde-signal63992330",
+  "httpStatus": 200,
+  "fetchedAt": "2026-09-05T07:05:45.760Z",
+  "contract": {
+    "interaction_type": "read_only",
+    "primary_payoff": "Venus Went Retrograde. And Something From Your Past Just Started Moving Again.",
+    "secondary_payoff": "ENTER THE SIGNAL →",
+    "allowed_claims": [
+      "timing_window",
+      "reason"
+    ]
+  },
+  "page": {
+    "title": "AstrologyManifest | The Venus Retrograde Signal",
+    "headings": [
+      "Venus Went Retrograde. And Something From Your Past Just Started Moving Again.",
+      "Working..."
+    ],
+    "buttons": [],
+    "paragraphs": [
+      "Venus Went Retrograde. And Something From Your Past Just Started Moving Again.",
+      "Right now, Venus — the planet that governs love, longing, and every connection that has ever mattered to you — is moving in reverse.",
+      "This is why someone's name has been crossing your mind. Why an old feeling returned without warning. Why something in your love life suddenly feels unresolved again.",
+      "It isn't nostalgia. It's the retrograde.",
+      "And during this window, the signal it's sending you is at its clearest — but only until Venus stations direct again."
+    ],
+    "mechanics": {
+      "hasEmailInput": false,
+      "cardChoice": false,
+      "stepMarker": null,
+      "countdown": true,
+      "images": 2
+    }
+  },
+  "sampleConcepts": []
+}

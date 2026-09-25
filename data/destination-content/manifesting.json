@@ -1,0 +1,41 @@
+{
+  "slug": "manifesting",
+  "label": "Manifesting",
+  "url": "https://www.astrologymanifest.com/manifesting-you",
+  "finalUrl": "https://www.astrologymanifest.com/manifesting-you63992321",
+  "httpStatus": 200,
+  "fetchedAt": "2026-09-05T07:05:48.158Z",
+  "contract": {
+    "interaction_type": "read_only",
+    "primary_payoff": "Someone Is Manifesting You Right Now…",
+    "secondary_payoff": "FIND OUT WHO →",
+    "allowed_claims": [
+      "person"
+    ]
+  },
+  "page": {
+    "title": "AstrologyManifest | Someone Is Manifesting You",
+    "headings": [
+      "Someone Is Manifesting You Right Now…",
+      "Working..."
+    ],
+    "buttons": [
+      "FIND OUT WHO →"
+    ],
+    "paragraphs": [
+      "Have you been thinking about someone lately — suddenly, randomly, for no reason you can explain?",
+      "A name that surfaces while you're doing nothing at all. A face in a dream that wasn't invited. A feeling of being… watched, but warmly.",
+      "Here's what most people never learn: that's rarely your own mind doing it.",
+      "When someone focuses their desire, attention, and intention on you — when they manifest you — your energy field registers it. And it leaks into your thoughts as if they were your own.",
+      "Someone, somewhere, is holding you in their mind right now."
+    ],
+    "mechanics": {
+      "hasEmailInput": false,
+      "cardChoice": false,
+      "stepMarker": null,
+      "countdown": true,
+      "images": 2
+    }
+  },
+  "sampleConcepts": []
+}

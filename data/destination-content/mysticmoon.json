@@ -1,0 +1,45 @@
+{
+  "slug": "mysticmoon",
+  "label": "Mystic Moon",
+  "url": "https://blog.astrologymanifest.com/mystic-moon-reveal-1",
+  "finalUrl": "https://blog.astrologymanifest.com/mystic-moon-reveal-1",
+  "httpStatus": 200,
+  "fetchedAt": "2026-09-05T07:05:51.380Z",
+  "contract": {
+    "interaction_type": "read_only",
+    "primary_payoff": "One Thread of Destiny Has Been Revealed...",
+    "secondary_payoff": "Reveal the Full Prophecy ➔",
+    "allowed_claims": [
+      "person",
+      "timing_window",
+      "card",
+      "message",
+      "reason"
+    ]
+  },
+  "page": {
+    "title": "Mystic Moon Tarot Card Reveal | Unlock Your Secret Lunar Message",
+    "headings": [
+      "One Thread of Destiny Has Been Revealed...",
+      "But destiny does not reveal all its secrets at once. There is more the Moon is waiting to show you — if you have the heart to uncover it.",
+      "Working..."
+    ],
+    "buttons": [
+      "Reveal the Full Prophecy ➔",
+      "Click Here For Your Free Reading",
+      "Disclaimer"
+    ],
+    "paragraphs": [
+      "One Thread of Destiny Has Been Revealed...",
+      "But destiny does not reveal all its secrets at once. There is more the Moon is waiting to show you — if you have the heart to uncover it."
+    ],
+    "mechanics": {
+      "hasEmailInput": false,
+      "cardChoice": false,
+      "stepMarker": null,
+      "countdown": true,
+      "images": 1
+    }
+  },
+  "sampleConcepts": []
+}

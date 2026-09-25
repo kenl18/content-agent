@@ -1,0 +1,38 @@
+{
+  "slug": "themessage",
+  "label": "The Message",
+  "url": "https://blog.astrologymanifest.com/the-message",
+  "finalUrl": "https://blog.astrologymanifest.com/the-message",
+  "httpStatus": 200,
+  "fetchedAt": "2026-09-05T07:05:47.239Z",
+  "contract": {
+    "interaction_type": "read_only",
+    "primary_payoff": "Someone Once Wanted To Tell You Something — And Never Did",
+    "secondary_payoff": "Read What Was Left Unsaid →",
+    "allowed_claims": [
+      "person",
+      "message"
+    ]
+  },
+  "page": {
+    "title": "Someone Never Sent You This Message – Read It Now",
+    "headings": [
+      "Someone Once Wanted To Tell You Something — And Never Did",
+      "Working..."
+    ],
+    "buttons": [
+      "Read What Was Left Unsaid →"
+    ],
+    "paragraphs": [
+      "Someone Once Wanted To Tell You Something — And Never Did There is a message that was meant for you. It was written in someone's heart, but the words never made it to you. Until now."
+    ],
+    "mechanics": {
+      "hasEmailInput": false,
+      "cardChoice": false,
+      "stepMarker": null,
+      "countdown": true,
+      "images": 1
+    }
+  },
+  "sampleConcepts": []
+}

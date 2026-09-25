@@ -1,0 +1,38 @@
+{
+  "slug": "cf2tarotfunnel",
+  "label": "cf2tarotfunnel",
+  "url": "https://blog.astrologymanifest.com/tarot",
+  "finalUrl": "https://blog.astrologymanifest.com/tarot",
+  "httpStatus": 200,
+  "fetchedAt": "2026-09-05T07:05:53.038Z",
+  "contract": {
+    "interaction_type": "choose_card",
+    "primary_payoff": "Which Card Is Calling You Today?",
+    "secondary_payoff": "The Fool",
+    "allowed_claims": [
+      "card_choice",
+      "card"
+    ]
+  },
+  "page": {
+    "title": "Free Tarot Card Reading - Which Card Is Calling You Today? |",
+    "headings": [
+      "Which Card Is Calling You Today?",
+      "Take a breath, then tap the Tarot card you feel drawn to. That pull is the beginning of your free reading.",
+      "Asking About Love?",
+      "Working..."
+    ],
+    "buttons": [],
+    "paragraphs": [
+      "Some questions belong to the heart — the six-card Love Card Oracle was made for exactly those."
+    ],
+    "mechanics": {
+      "hasEmailInput": false,
+      "cardChoice": false,
+      "stepMarker": null,
+      "countdown": true,
+      "images": 25
+    }
+  },
+  "sampleConcepts": []
+}

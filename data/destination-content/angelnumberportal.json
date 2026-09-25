@@ -1,0 +1,43 @@
+{
+  "slug": "angelnumberportal",
+  "label": "Angel Number Portal",
+  "url": "https://blog.astrologymanifest.com/angel-number-portal",
+  "finalUrl": "https://blog.astrologymanifest.com/angel-number-portal",
+  "httpStatus": 200,
+  "fetchedAt": "2026-09-05T07:05:53.427Z",
+  "contract": {
+    "interaction_type": "read_only",
+    "primary_payoff": "🔮 Your Angel Number Message Awaits...",
+    "secondary_payoff": "👉 Choose Your Number Now",
+    "allowed_claims": [
+      "person",
+      "number",
+      "timing_window",
+      "message",
+      "reason"
+    ]
+  },
+  "page": {
+    "title": "Discover Your Angel Number Message | Decode Divine Signs & Hidden Guidance",
+    "headings": [
+      "🔮 Your Angel Number Message Awaits...",
+      "You’ve been noticing a number for a reason. Pick the one that calls to you most and receive a divine message meant just for you.",
+      "Working..."
+    ],
+    "buttons": [
+      "👉 Choose Your Number Now",
+      "Disclaimer"
+    ],
+    "paragraphs": [
+      "You’ve been noticing a number for a reason. Pick the one that calls to you most and receive a divine message meant just for you."
+    ],
+    "mechanics": {
+      "hasEmailInput": false,
+      "cardChoice": false,
+      "stepMarker": null,
+      "countdown": true,
+      "images": 0
+    }
+  },
+  "sampleConcepts": []
+}

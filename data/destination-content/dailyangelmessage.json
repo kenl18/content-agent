@@ -1,0 +1,50 @@
+{
+  "slug": "dailyangelmessage",
+  "label": "Daily Angel Message",
+  "url": "https://www.astrologymanifest.com/daily-angel-message1",
+  "finalUrl": "https://www.astrologymanifest.com/daily-angel-message1",
+  "httpStatus": 200,
+  "fetchedAt": "2026-09-05T07:05:39.789Z",
+  "contract": {
+    "interaction_type": "read_only",
+    "primary_payoff": "🔮 Your Guardian Angel Has a Message Just for You 🔮",
+    "secondary_payoff": "💌 UNVEIL MY HEAVENLY MESSAGE",
+    "allowed_claims": [
+      "message",
+      "reason"
+    ]
+  },
+  "page": {
+    "title": "AstrologyManifest | Angel Reading",
+    "headings": [
+      "✨ They’ve been watching over you… and now it’s time. Will you uncover what they’ve been waiting to tell you? ✨",
+      "Working..."
+    ],
+    "buttons": [
+      "💌 UNVEIL MY HEAVENLY MESSAGE"
+    ],
+    "paragraphs": [
+      "🔮 Your Guardian Angel Has a Message Just for You 🔮",
+      "✨ They’ve been watching over you… and now it’s time. Will you uncover what they’ve been waiting to tell you? ✨",
+      "Lately, your guardian angel has been working harder to reach you. And if you've felt any of these, it's why:",
+      "✦ A sudden sense of warmth or comfort with no clear cause",
+      "✦ The same numbers, songs, or words appearing again and again",
+      "✦ A feather, a coin, or a sign that seemed placed just for you",
+      "✦ Waking at the same time each night, as if gently nudged",
+      "✦ A quiet inner voice that knew something before you did",
+      "These aren't coincidences. They're your angel's way of saying I'm here — and there's something you need to know.",
+      "Right now, your guardian angel is trying to deliver a message about your heart — about a connection forming, a love returning, or a door about to open that you haven't noticed yet.",
+      "They've seen what's coming for you. They've been guiding you toward it the whole time. And on the next page, the message they've been holding for you is finally revealed.",
+      "Most people feel their angel's presence their entire lives and never once stop to receive what they're being told. You're about to be different.",
+      "✨ Your angel has waited long enough. It's time to hear what they've been trying to say."
+    ],
+    "mechanics": {
+      "hasEmailInput": false,
+      "cardChoice": false,
+      "stepMarker": null,
+      "countdown": true,
+      "images": 2
+    }
+  },
+  "sampleConcepts": []
+}

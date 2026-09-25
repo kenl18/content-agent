@@ -1,0 +1,44 @@
+{
+  "slug": "tarot-warning",
+  "label": "tarot-warning",
+  "url": "https://blog.astrologymanifest.com/your-warning-awaits",
+  "finalUrl": "https://blog.astrologymanifest.com/your-warning-awaits",
+  "httpStatus": 200,
+  "fetchedAt": "2026-09-05T07:05:52.141Z",
+  "contract": {
+    "interaction_type": "choose_card",
+    "primary_payoff": "i can see what your cards are revealing.. and it's not random",
+    "secondary_payoff": "⚡ Reveal My Full Reading",
+    "allowed_claims": [
+      "timing_window",
+      "card_choice",
+      "card"
+    ]
+  },
+  "page": {
+    "title": "The Cards Have a Warning for You — Choose Before It Closes",
+    "headings": [
+      "i can see what your cards are revealing.. and it's not random",
+      "the cards need you to see something - before it's too late",
+      "This window won't stay open long. Choose your card before it closes...",
+      "Working..."
+    ],
+    "buttons": [
+      "⚡ Reveal My Full Reading"
+    ],
+    "paragraphs": [
+      "i can see what your cards are revealing.. and it's not random",
+      "Enter your email address below to receive your reading, while there's still time...",
+      "the cards need you to see something - before it's too late",
+      "This window won't stay open long. Choose your card before it closes..."
+    ],
+    "mechanics": {
+      "hasEmailInput": true,
+      "cardChoice": true,
+      "stepMarker": null,
+      "countdown": true,
+      "images": 7
+    }
+  },
+  "sampleConcepts": []
+}

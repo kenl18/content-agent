@@ -1,0 +1,42 @@
+{
+  "slug": "moonwindow",
+  "label": "Moon Window",
+  "url": "https://www.astrologymanifest.com/moon-windowp91snpgv63992318",
+  "finalUrl": "https://www.astrologymanifest.com/moon-windowp91snpgv63992318",
+  "httpStatus": 200,
+  "fetchedAt": "2026-09-05T07:05:41.102Z",
+  "contract": {
+    "interaction_type": "read_only",
+    "primary_payoff": "The Moon Has Opened A 48-Hour Window For You…",
+    "secondary_payoff": "ENTER THE WINDOW →",
+    "allowed_claims": [
+      "person",
+      "timing_window",
+      "message",
+      "reason"
+    ]
+  },
+  "page": {
+    "title": "AstrologyManifest | The 48-Hour Lunar Window",
+    "headings": [
+      "The Moon Has Opened A 48-Hour Window For You…",
+      "Working..."
+    ],
+    "buttons": [],
+    "paragraphs": [
+      "The Moon Has Opened A 48-Hour Window For You…",
+      "Right now, the Moon is sitting in her most emotionally charged position of the month.",
+      "For the next 48 hours, the energetic cords between you and the people tied to your heart — past, present, and the one still to come — are amplified. Easier to read. Easier to feel. Easier to receive from.",
+      "This is why old feelings resurface around the full moon. Why their name crosses your mind out of nowhere. Why your dreams get louder.",
+      "And there is a message waiting inside it for you — but only while the window stays open."
+    ],
+    "mechanics": {
+      "hasEmailInput": false,
+      "cardChoice": false,
+      "stepMarker": null,
+      "countdown": true,
+      "images": 2
+    }
+  },
+  "sampleConcepts": []
+}

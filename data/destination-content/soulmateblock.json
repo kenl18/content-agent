@@ -1,0 +1,62 @@
+{
+  "slug": "soulmateblock",
+  "label": "Soulmate Block",
+  "url": "https://blog.astrologymanifest.com/soulmate-blocks-reading",
+  "finalUrl": "https://blog.astrologymanifest.com/soulmate-blocks-reading",
+  "httpStatus": 200,
+  "fetchedAt": "2026-09-05T07:05:50.982Z",
+  "contract": {
+    "interaction_type": "read_only",
+    "primary_payoff": "Your heart already feels what your mind hasn’t named yet.​",
+    "secondary_payoff": "🔓 Reveal What’s Blocking My Soulmate Connection",
+    "allowed_claims": [
+      "person",
+      "message",
+      "reason"
+    ]
+  },
+  "page": {
+    "title": "What’s Blocking Your Soulmate Connection? | Free Love Energy Reading",
+    "headings": [
+      "Your heart already feels what your mind hasn’t named yet.​",
+      "Which image quietly echoes your heart’s hidden longing?",
+      "💞 Your heart is whispering — are you listening?",
+      "🌹 Your soul has been whispering for this shift.",
+      "🔍 Ignoring the block won’t make it disappear — it only grows heavier.",
+      "This one quiet choice could realign everything.",
+      "Working..."
+    ],
+    "buttons": [
+      "🔓 Reveal What’s Blocking My Soulmate Connection",
+      "💫 Show Me the Love Energy I Need to Release",
+      "Reveal What’s Ready to Be Released",
+      "Reveal What’s Blocking My Soulmate Connection",
+      "Discover what’s blocking your soulmate energy.",
+      "Disclaimer"
+    ],
+    "paragraphs": [
+      "Your heart already feels what your mind hasn’t named yet.​",
+      "Which image quietly echoes your heart’s hidden longing?",
+      "Don’t overthink. Let your heart choose — it already knows what’s blocking your soulmate connection. ​Follow the nudge. Your first instinct is often your truth.",
+      "Follow the nudge. Your first instinct is usually the truth.",
+      "🔽 Click on the one that you feel most drawn to.​",
+      "You’ve carried the weight long enough. One of these images holds the truth your spirit has been trying to name. Let your soul guide you to the one that quietly mirrors what you’re ready to release.",
+      "This insight is meant for this moment in time. ​Return later, and your pull may shift — because so might the message.",
+      "🔮 You’ve searched for love with an open heart —",
+      "🔓 Reveal What’s Blocking My Soulmate Connection",
+      "💞 Your heart is whispering — are you listening?",
+      "💫 Show Me the Love Energy I Need to Release",
+      "You don’t always notice the disconnect right away. But deep down, your soul is tired of attracting relationships that don’t last… or worse — those that leave you feeling unseen.",
+      "Help me clear the block in my love vibration",
+      "🌹 Your soul has been whispering for this shift."
+    ],
+    "mechanics": {
+      "hasEmailInput": false,
+      "cardChoice": false,
+      "stepMarker": null,
+      "countdown": true,
+      "images": 14
+    }
+  },
+  "sampleConcepts": []
+}

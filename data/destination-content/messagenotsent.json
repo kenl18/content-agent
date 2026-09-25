@@ -1,0 +1,40 @@
+{
+  "slug": "messagenotsent",
+  "label": "Message They Never Sent",
+  "url": "https://blog.astrologymanifest.com/message-they-never-sent-1",
+  "finalUrl": "https://blog.astrologymanifest.com/message-they-never-sent-1",
+  "httpStatus": 200,
+  "fetchedAt": "2026-09-05T07:05:49.358Z",
+  "contract": {
+    "interaction_type": "read_only",
+    "primary_payoff": "LOVE READING • STEP 1 OF 5",
+    "secondary_payoff": "Reveal The Message",
+    "allowed_claims": [
+      "person",
+      "message"
+    ]
+  },
+  "page": {
+    "title": "The Message They Never Sent | Discover What They Could Never Tell You",
+    "headings": [
+      "LOVE READING • STEP 1 OF 5",
+      "The Message They Never Sent",
+      "Your reading is 100% private",
+      "Working..."
+    ],
+    "buttons": [
+      "Reveal The Message"
+    ],
+    "paragraphs": [
+      "Someone wanted to tell you something. They never found the courage. ​What remains is still echoing beneath the surface. ​Before this reading began, one image appeared more strongly than any other. ​​A letter that was never delivered."
+    ],
+    "mechanics": {
+      "hasEmailInput": false,
+      "cardChoice": false,
+      "stepMarker": "STEP 1 OF 5",
+      "countdown": true,
+      "images": 1
+    }
+  },
+  "sampleConcepts": []
+}
